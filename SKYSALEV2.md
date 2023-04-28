@@ -19,6 +19,7 @@
 | `amount` | `number` | **Required**. Сумма покупки. [Посмотреть информацию по лимитам валют](CURRENCIES_SALES.md)
 | `broker_id` | `number` | **Required**.
 | `requisites` | `string` | **Required**.
+| `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
 
 #### Body example
 
