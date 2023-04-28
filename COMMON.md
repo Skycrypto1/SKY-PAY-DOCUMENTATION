@@ -19,7 +19,7 @@
 
 | Parameter | Description                |
 | :-------- | :------------------------- |
-| `symbol` | **Required**. (rub, usd, kzt, uah, byn, tjs, azn, uzs)
+| `symbol` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 
 #### Response example
 
@@ -93,29 +93,33 @@
 ## Получение актуального биржевого курса
 
 ```http
-  GET rest/v1//actual-rates/{symbol}
+  GET rest/v1/actual-rates/{symbol}
 ```
 #### Query parameters
 
 | Parameter | Description                |
 | :-------- | :------------------------- |
-| `currency` | **Required**. (rub, usd, kzt, uah, byn, tjs, azn, uzs)
-| `sky_pay` | Если флаг **true**, то в response придут только те брокеры, которые поддерживают SKY PAY
+| `symbol` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 
 #### Response example
 
 ```javascript
-[
-  {
-  "id": "3d5f3052-2ca0-4d37-847a-d1ad841b36c5",
-  "is_card": true,
-  "name": "Райффайзен"
-  },
-  {
-    "id": "f40b4b3a-3357-4c4d-b684-4ac3b9b2cd2c",
-    "is_card": true,
-    "name": "Росбанк"
-  },
-  ...
-]
 
+[
+    {
+        "currency": "rub",
+        "rate": 2413785.0,
+        "symbol": "btc"
+    },
+    {
+        "currency": "usd",
+        "rate": 29384.52,
+        "symbol": "btc"
+    },
+    {
+        "currency": "uah",
+        "rate": 1105277.0,
+        "symbol": "btc"
+    },
+    ...
+]
