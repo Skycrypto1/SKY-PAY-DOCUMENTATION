@@ -22,7 +22,8 @@
 | :-------- | :------- | :------------------------- |
 | `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Сумма покупки не должна быть более 6 знаков после запятой. [Лимиты по выводу криптовалют](WITHDRAWALLIMITS.md)
-| `address` | `string` | **Required**. Адрес кошелька
+| `address` | `string` | **Required**. Адрес кошелька.
+| `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
 
 #### Body example
 
