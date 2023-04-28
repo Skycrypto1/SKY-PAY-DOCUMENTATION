@@ -93,7 +93,7 @@
 ## Получение актуального биржевого курса
 
 ```http
-  GET rest/v1/actual-rates/{symbol}
+  GET rest/v2/actual-rates/{symbol}
 ```
 #### Query parameters
 
