@@ -41,8 +41,8 @@
 #### Query parameters
  
 | Parameter | Description                | Default       |
-| :-------- | :------------------------- | ------------- | rub
-| `currency` | Филтрация по валюте. (rub, usd, kzt, uah, byn, tjs, azn, uzs) |
+| :-------- | :------------------------- | ------------- | 
+| `currency` | Филтрация по валюте. (rub, usd, kzt, uah, byn, tjs, azn, uzs) | rub
 | `lot_type` | Фильтрация по типу операции. (buy, sell) | sell
 
 #### Response example
