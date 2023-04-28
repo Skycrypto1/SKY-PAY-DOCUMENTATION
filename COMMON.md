@@ -5,6 +5,8 @@
 [Получение актуальных курсов](#rates)
 
 [Получение списка банков](#brokers)
+
+[Получение актуального биржевого курса](#exchange-rate)
  
  <a name="balance"></a>
 ## Получение актуального баланса
@@ -62,6 +64,36 @@
 
 ```http
   GET rest/v1/brokers?currency=rub&sky_pay=true
+```
+#### Query parameters
+
+| Parameter | Description                |
+| :-------- | :------------------------- |
+| `currency` | **Required**. (rub, usd, kzt, uah, byn, tjs, azn, uzs)
+| `sky_pay` | Если флаг **true**, то в response придут только те брокеры, которые поддерживают SKY PAY
+
+#### Response example
+
+```javascript
+[
+  {
+  "id": "3d5f3052-2ca0-4d37-847a-d1ad841b36c5",
+  "is_card": true,
+  "name": "Райффайзен"
+  },
+  {
+    "id": "f40b4b3a-3357-4c4d-b684-4ac3b9b2cd2c",
+    "is_card": true,
+    "name": "Росбанк"
+  },
+  ...
+]
+
+ <a name="brokers"></a>
+## Получение актуального биржевого курса
+
+```http
+  GET rest/v1//actual-rates/{symbol}
 ```
 #### Query parameters
 
