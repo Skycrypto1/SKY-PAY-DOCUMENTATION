@@ -89,7 +89,7 @@
   ...
 ]
 
- <a name="brokers"></a>
+ <a name="exchange-rate"></a>
 ## Получение актуального биржевого курса
 
 ```http
