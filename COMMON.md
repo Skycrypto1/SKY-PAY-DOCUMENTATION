@@ -33,14 +33,15 @@
 ## Получение актуальных курсов
 
 ```http
-  GET rest/v2/rates/btc?currency=rub
+  GET rest/v2/rates/btc?currency=rub&lot_type
 ```
 
 #### Query parameters
-
-| Parameter | Description                |
-| :-------- | :------------------------- |
-| `currency` | **Required**. (rub, usd, kzt, uah, byn, tjs, azn, uzs)
+ 
+| Parameter | Description                | Default       |
+| :-------- | :------------------------- | ------------- | rub
+| `currency` | Филтрация по валюте. (rub, usd, kzt, uah, byn, tjs, azn, uzs) |
+| `lot_type` | Фильтрация по типу операции. (buy, sell) | sell
 
 #### Response example
 
@@ -49,6 +50,7 @@
   {
   "broker": "Mastercard", 
   "currency": "rub",
+  "lot_type": "sell",
   "rate": 72.16,
   "symbol": "btc"
   },
