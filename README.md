@@ -7,10 +7,8 @@
  Если указать callback_url, то после успешного/не успешного платежа на адрес callback_url придет POST запрос с данными платежа.  Если запрос на callback_url не успешен, он будет отсылаться раз в минуту, пока не получит в ответ HTTP Status Code 200.
   
 - Связаться с администратором SKY PAY для того, чтобы он активировал необходый функционал для интернет-площадки, предоставив ему Название.
-
-# Доступ к API можно получить по адресу https://papi.skycrypto.net
   
-## API
+## API (https://papi.skycrypto.net)
   
 - [**Sky Pay (Fiat purchase with redirect)**](SKYPAY.md)
 - [**Sky Sale (Fiat sale with redirect)**](SKYSALE.md)
