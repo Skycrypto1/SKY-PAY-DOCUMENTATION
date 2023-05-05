@@ -8,8 +8,7 @@
   
 - Связаться с администратором SKY PAY для того, чтобы он активировал необходый функционал для интернет-площадки, предоставив ему Название.
   
-## API (доступ к API по адресу https://papi.skycrypto.net)
-  
+## API - https://papi.skycrypto.net
 - [**Sky Pay (Fiat purchase with redirect)**](SKYPAY.md)
 - [**Sky Sale (Fiat sale with redirect)**](SKYSALE.md)
 - [**Sky Pay v2 (Fiat purchase without redirect)**](SKYPAYV2.md)
