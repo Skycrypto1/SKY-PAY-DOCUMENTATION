@@ -12,7 +12,7 @@
 ## Получение актуального баланса
 
 ```http
-  GET rest/v2/balance?symbol=btc 
+  GET rest/v2/balance?symbol=btc&currencies=rub,usd
 ```
 
 #### Query parameters
@@ -20,13 +20,15 @@
 | Parameter | Description                |
 | :-------- | :------------------------- |
 | `symbol` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
+| `currencies` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 
 #### Response example
 
 ```javascript
 {
-  "balance": 1000,
-  "balance_rub": 72000,
+  "balance": 1111.8080573,
+  "balance_rub": 2299424746.9870005,
+  "balance_usd": 29548922.989762727,
   "symbol": "btc",
   "updated_at": "2020-03-25T14:38:06.515058Z"
 }
