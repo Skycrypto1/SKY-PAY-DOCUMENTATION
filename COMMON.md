@@ -20,7 +20,7 @@
 | Parameter | Description                | Default       |
 | :-------- | :------------------------- | ------------- |
 | `symbol` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md) | 
-| `currencies` | **Required**. (CURRENCIES.md) | rub
+| `currencies` | **Required**. [Список валют](CURRENCIES.md) | rub
 
 #### Response example
 
