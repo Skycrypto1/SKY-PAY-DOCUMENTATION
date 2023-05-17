@@ -37,7 +37,7 @@
 ## Получение лучших курсов по заявкам трейдеров
 
 ```http
-  GET rest/v2/rates/btc?currency=rub&lot_type
+  GET rest/v2/rates/btc?currency=rub&lot_type=sell
 ```
 
 #### Query parameters
