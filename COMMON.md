@@ -17,10 +17,10 @@
 
 #### Query parameters
 
-| Parameter | Description                |
-| :-------- | :------------------------- |
-| `symbol` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
-| `currencies` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
+| Parameter | Description                | Default       |
+| :-------- | :------------------------- | ------------- |
+| `symbol` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md) | 
+| `currencies` | **Required**. [Список валют](CURRENCIES.md) | rub
 
 #### Response example
 
