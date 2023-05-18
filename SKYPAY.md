@@ -103,6 +103,7 @@
     "merchant_id": 186024,
     "payment_id": "4499c16d-13b6-43cc-bc24-af2cd4ac1563",
     "processed_at": null,
+    "rate": null,
     "received_crypto": 0.0,
     "secondary_link": "",
     "status": 0,
@@ -111,7 +112,7 @@
     "tx_hash": null,
     "valid_minutes": 1440,
     "web_link": "http://qpay.sky-crypto.com/payment/4499c16d-13b6-43cc-bc24-af2cd4ac1563?ca=1500.0&s=btc&m=186024&l=100311",
-    "lang": "ru"
+    "lang": "ru",
 }
 ```
 
