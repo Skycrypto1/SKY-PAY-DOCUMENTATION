@@ -16,7 +16,7 @@
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `amount` | `number` | **Required**. Сумма покупки. [Посмотреть информацию по лимитам валют](CURRENCIES_SALES.md)
-| `label` | `number` | **Required**. Hash который заедается мерчантом
+| `label` | `string` | **Required**. Hash который заедается мерчантом
 | `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [Список валют](CURRENCIES_SALES.md)
 | `back_url` | `string` | Cсылка на страницу, куда будет перенаправлен пользователь после успешной оплаты
