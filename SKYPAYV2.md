@@ -27,8 +27,8 @@
 
 | Parameter | Rules     |
 | :-------- | :-------  |
-| `amount` | minimum: 0.0001; maximum: 100000000
-| `label` | maxLength: 256
+| `amount` | minimum: **0.0001**; maximum: **100000000**
+| `label` | maxLength: **256**
 
 #### Body example
 
