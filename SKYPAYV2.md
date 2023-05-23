@@ -23,6 +23,13 @@
 | `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true, для суммы в крипте – false |
 | `broker_id` | `string` | Используется для создания платежа на определенный банк
 
+#### Limits
+
+| Parameter | Rules     |
+| :-------- | :-------  |
+| `amount` | minimum: 0.0001; maximum: 100000000
+| `label` | maxLength: 256
+
 #### Body example
 
 ```javascript
