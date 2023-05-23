@@ -25,6 +25,15 @@
 | `mask` | `string` | Используется для передачи реквизитов карты отправителя
 | `lang` | `string` | Используется для установки языка интерфейса SKY PAY. По дефолту - 'ru'. [Список языков SKY PAY](SKYPAYLANGUAGES.md)
 
+
+#### Linits
+
+| Parameter | Limit     |
+| `amount` | minimum: 0.0001,maximum: 100000000
+| `label` | `string`
+| `back_url` | `string`
+| `email` | `string`
+
 #### Body example
 
 ```javascript
