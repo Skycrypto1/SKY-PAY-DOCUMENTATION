@@ -22,6 +22,14 @@
 | `back_url` | `string` | Cсылка на страницу, куда будет перенаправлен пользователь после успешной оплаты
 | `lang` | `string` | Используется для установки языка интерфейса SKY PAY. По дефолту - 'ru'. [Список языков SKY PAY](SKYPAYLANGUAGES.md)
 
+#### Limits
+
+| Parameter | Rules     |
+| :-------- | :-------  |
+| `amount` | minimum: **0.0001**; maximum: **100000000**
+| `label` | maxLength: 256
+| `back_url` | maxLength: 255
+
 #### Body example
 
 ```javascript
