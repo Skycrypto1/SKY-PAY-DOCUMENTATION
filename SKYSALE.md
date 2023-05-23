@@ -26,9 +26,9 @@
 
 | Parameter | Rules     |
 | :-------- | :-------  |
-| `amount` | ``` {linenums="1"} minimum: **0.0001** maximum: **100000000** ```
+| `amount` | minimum: **0.0001**  maximum: **100000000**
 | `label` | maxLength: **256**
-| `back_url` | maxLength: **255**
+| `back_url` | maxLength: **256**
 
 #### Body example
 
