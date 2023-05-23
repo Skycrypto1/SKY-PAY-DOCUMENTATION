@@ -21,6 +21,12 @@
 | `requisites` | `string` | **Required**.
 | `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
 
+#### Limits
+
+| Parameter | Rules     |
+| :-------- | :-------  |
+| `amount` | minimum: **0.0001**; maximum: **100000000**
+
 #### Body example
 
 ```javascript
