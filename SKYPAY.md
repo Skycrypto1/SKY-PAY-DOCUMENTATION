@@ -28,12 +28,12 @@
 
 #### Limits
 
-| Parameter | Limit     |
+| Parameter | Rules     |
 | :-------- | :-------  |
-| `amount` | minimum: 0.0001,maximum: 100000000
-| `label` | `string`
-| `back_url` | `string`
-| `email` | `string`
+| `amount` | minimum: 0.0001; maximum: 100000000
+| `label` | maxLength: 256
+| `back_url` | maxLength: 255
+| `email` | maxLength: 50
 
 #### Body example
 
