@@ -46,8 +46,8 @@
   "is_currency_amount": true,
   "back_url": "https://myservice.com/payment/100311",
   "email": "testuser@mail.co",
-  "broker_id": "ad70be25-5bb0-401f-a7a2-1f71c403cabf"
-  "mask": "4728367903430821",
+  "broker_id": "ad70be25-5bb0-401f-a7a2-1f71c403cabf",
+  "mask": "4728367903430821"
 }
 ```
 
