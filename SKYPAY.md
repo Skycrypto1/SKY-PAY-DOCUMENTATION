@@ -24,6 +24,7 @@
 | `broker_id` | `string` | Используется для создания платежа на определенный банк
 | `mask` | `string` | Используется для передачи реквизитов карты отправителя
 | `lang` | `string` | Используется для установки языка интерфейса SKY PAY. По дефолту - 'ru'. [Список языков SKY PAY](SKYPAYLANGUAGES.md)
+| `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. [Статусы платежей](#paymentStatuses). По дефолту - 1440
 
 
 #### Limits
@@ -125,7 +126,7 @@
     "web_link": "http://qpay.sky-crypto.com/payment/0fab873b-c035-4910-ad58-2adc80515945?ca=1000.0&s=btc&m=186715&l="
 }
 ```
-
+<a name="paymentStatuses"></a>
 | Payment status (status) | Description                |
 | :-------- |  :------------------------- |
 | `0` | Cозданный платеж |
