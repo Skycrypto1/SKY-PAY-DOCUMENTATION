@@ -133,7 +133,7 @@
 
 ```javascript
 {
-  "success": "\"fiat_sent\" updated"
+  "fiat_sent": false,
 }
 ```
 
@@ -141,22 +141,6 @@
 
 ```javascript
 {
-  "amount": 450.0,
-  "broker_id": "efc65f1a-484a-4297-b192-3cf199e38e52",
-  "confirmed_at": null,
-  "created_at": "2023-01-23T09:40:25.147586+00:00",
-  "currency": "rub",
-  "deal": null,
-  "fiat_sent": false,
-  "id": "6e7e9421-9e08-4ecd-93c8-abc3559642bc",
-  "is_currency_amount": true,
-  "label": "642002",
-  "merchant_id": 120222,
-  "processed_at": null,
-  "received_crypto": 0.0,
-  "requisites": null,
-  "status": 0,
-  "symbol": "btc",
-  "valid_minutes": 1440
+  "success": "\"fiat_sent\" updated"
 }
 ```
