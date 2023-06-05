@@ -8,7 +8,7 @@
   
 - Связаться с администратором SKY PAY для того, чтобы он активировал необходый функционал для интернет-площадки, предоставив ему Название.
   
-## API PROD - https://papi.skycrypto.net или https://papi.skycrypto.me (для эндпоинтов /rest/v2), https://api.skycrypto.net или https://api.skycrypto.me (для эндпоинтов /rest/v1). 
+API PROD - https://papi.skycrypto.net или https://papi.skycrypto.me (для эндпоинтов /rest/v2), https://api.skycrypto.net или https://api.skycrypto.me (для эндпоинтов /rest/v1). 
 API TEST- http://35.179.52.209 (для эндпоинтов /rest/v2), http://35.177.195.54:5555 (для эндпоинтов /rest/v1)
 - [**Sky Pay (Fiat purchase with redirect)**](SKYPAY.md)
 - [**Sky Sale (Fiat sale with redirect)**](SKYSALE.md)
