@@ -133,7 +133,7 @@
 
 ```javascript
 {
-  "fiat_sent": false,
+  "fiat_sent": true,
 }
 ```
 
