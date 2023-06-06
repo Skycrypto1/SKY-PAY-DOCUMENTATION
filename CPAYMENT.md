@@ -25,19 +25,8 @@
 
 ```javascript
 {
-  "address": null,
-  "amount": null,
-  "amount_currency": 1000.0,
-  "created_at": "2022-10-21T07:22:16.094674+00:00",
   "currency": "rub",
-  "ended_at": null,
-  "id": "2a5cba7d-daav-4563-aac4-f0d967bd6856",
-  "merchant_id": 18078,
-  "rate": null,
-  "received_crypto": 0.0,
-  "status": 0,
-  "symbol": null,
-  "web_link": "http://qpay.sky-crypto.com/cpayment/2a5cba7d-daav-4563-aac4-f0d967bd6856"
+  "amount_currency": 1000
 }
 ```
 
@@ -45,15 +34,23 @@
 
 ```javascript
 {
-  "address": "0x1579c0B749fAEa82A0A6FF54078F5749a8060a49",
-  "amount": 0.03,
-  "created_at": "2022-08-31T18:44:11.465405+00:00",
-  "id": "7123e6af-f01b-49bf-8d95-0ce067de37fb",
-  "merchant_id": 18078,
-  "processed_at": null,
-  "status": 1,
-  "symbol": "eth",
+  "address": null,
+  "amount": null,
+  "amount_currency": 1000.0,
+  "amount_left": 0.0,
+  "amount_received": 0.0,
+  "created_at": "2023-06-06T07:25:34.801763+00:00",
+  "currency": "rub",
+  "ended_at": null,
+  "id": "0f28aad2-94b2-4911-8a2b-eccdb797ffa3",
+  "label": null,
   "lang": "ru",
+  "merchant_id": 186715,
+  "rate": null,
+  "received_crypto": 0.0,
+  "status": 0,
+  "symbol": null,
+  "web_link": "http://qpay.sky-crypto.com/cpayment/0f28aad2-94b2-4911-8a2b-eccdb797ffa3"
 }
 ```
  <a name="cpaymentinfo"></a>
