@@ -96,7 +96,7 @@
   "merchant_id": 120222,
   "processed_at": null,
   "received_crypto": 0.0,
-  "requisites": "4452 7738 6124 1948",
+  "requisites": 4452773861241948,
   "status": -1,
   "symbol": "btc",
   "valid_minutes": 1440
