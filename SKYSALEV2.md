@@ -15,7 +15,7 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `symbol` | `string` | По дефолтку rub.
+| `symbol` | `string` | По дефолту rub.
 | `amount` | `number` | **Required**. Сумма покупки.
 | `broker_id` | `number` | **Required**.
 | `requisites` | `string` | **Required**.
