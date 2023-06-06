@@ -97,7 +97,7 @@
   "processed_at": null,
   "received_crypto": 0.0,
   "requisites": 4452773861241948,
-  "status": -1,
+  "status": 1,
   "symbol": "btc",
   "valid_minutes": 1440
 }
