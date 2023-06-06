@@ -77,13 +77,6 @@
 | :-------- | :------------------------- |
 | `SALE_ID` | **Required**.
 
-#### Body parameters
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `callback_url` | `string` |Если указан callback_url, то после успешного/не успешного платежа на адрес callback_url придет POST запрос с данными платежа. Если запрос на callback_url не успешен, он будет отсылаться раз в минуту, пока не получит в ответ HTTP Status Code 200.
-
-
 #### Response example
 
 ```javascript
