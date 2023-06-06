@@ -36,7 +36,7 @@
 ```javascript
 {
   "symbol": "btc",
-  "amount": 1500,
+  "amount": 0.03,
   "address": "0x1579c0B749fAEa82A0A6FF54078F5749a8060a49"
 }
 ```
