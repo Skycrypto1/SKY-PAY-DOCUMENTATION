@@ -1,6 +1,6 @@
 #### Withdrawal limits 
 
-| currency | limits                |
+| currency | max amount               |
 | :-------- | :------------------------- |
 | `btc` | 1
 | `eth` | 5
