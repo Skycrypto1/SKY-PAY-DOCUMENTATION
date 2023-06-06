@@ -71,15 +71,17 @@
 
 ```javascript
 {
-  "amount": 10000,
+  "amount": 3000,
   "broker_id": "f79a6e4d-0f87-45d6-bbf8-5ee3d95cc3af",
-  "created_at": "2021-11-29T07:47:44.378517+00:00",
-  "deal": null,
-  "id": "11dcd487-9921-4c23-a19d-e00a9241a452",
-  "merchant_id": 156334,
-  "processed_at": null,
+  "cancel_reason": null,
+  "client_order_id": null,
+  "created_at": "2023-06-05T12:56:22.671628+00:00",
+  "deal": "hclUWgBtLS",
+  "id": "3cb6d3cd-37f2-44b0-85cc-656b1a17f851",
+  "merchant_id": 186715,
+  "processed_at": "2023-06-05T12:57:01.956215+00:00",
   "requisites": "test v2 requisite",
-  "status": 0,
+  "status": 2,
   "symbol": "btc"
 }
 ```
