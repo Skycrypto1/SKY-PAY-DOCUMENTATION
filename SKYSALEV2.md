@@ -15,8 +15,8 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
-| `amount` | `number` | **Required**. Сумма покупки. [Посмотреть информацию по лимитам валют](CURRENCIES_SALES.md)
+| `symbol` | `string` | По дефолтку rub.
+| `amount` | `number` | **Required**. Сумма покупки.
 | `broker_id` | `number` | **Required**.
 | `requisites` | `string` | **Required**.
 | `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
@@ -25,7 +25,7 @@
 
 | Parameter | Rules     |
 | :-------- | :-------  |
-| `amount` | minimum: **0.0001**; maximum: **100000000**
+| `amount` | minimum: **2000**; maximum: **50000**
 
 #### Body example
 
