@@ -57,7 +57,7 @@
 ## Получение информации по CPAYMENT
 
 ```http
-  GET rest/v2/cpeyments/<ID> 
+  GET rest/v2/cpayments/<ID> 
 ```
 
 #### Query parameters
