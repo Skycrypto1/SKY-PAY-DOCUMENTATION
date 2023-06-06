@@ -31,7 +31,7 @@
 
 ```javascript
 {
-  "symbol": "btc",
+  "symbol": "rub",
   "amount": 10000,
   "broker_id": "f79a6e4d-0f87-45d6-bbf8-5ee3d95cc3af",
   "requisites": "test v2 requisite”
@@ -51,7 +51,7 @@
   "processed_at": null,
   "requisites": "test v2 requisite",
   "status": 0,
-  "symbol": "btc"
+  "symbol": "rub"
 }
 ```
  <a name="skysaleinfo"></a>
