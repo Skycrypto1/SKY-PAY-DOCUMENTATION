@@ -11,7 +11,7 @@
 ## Создание ссылки CPAYMENT
 
 ```http
-  POST /rest/v2/cpayment 
+  POST /rest/v2/cpayments
 ```
 #### Body parameters
 
