@@ -65,7 +65,7 @@
 ## Получение списка банков
 
 ```http
-  GET rest/v1/brokers?currency=rub&sky_pay=true
+  GET rest/v2/brokers?currency=rub&sky_pay=true
 ```
 #### Query parameters
 
