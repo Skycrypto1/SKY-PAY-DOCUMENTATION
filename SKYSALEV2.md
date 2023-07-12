@@ -58,14 +58,14 @@
 ## Получение информации по выполнению SKY SALE V2
 
 ```http
-  GET rest/v2/sale_v2/<SALE_ID> 
+  GET rest/v2/sale_v2/<ID> 
 ```
 
 #### Query parameters
 
 | Parameter | Description                |
 | :-------- | :------------------------- |
-| `SALE_ID` | **Required**.
+| `ID` | **Required**.
 
 #### Response example
 
