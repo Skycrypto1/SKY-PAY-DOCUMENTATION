@@ -70,14 +70,14 @@
 ## Получение информации по выполнению SKY PAY V2
 
 ```http
-  GET rest/v2/payments_v2/<PAYMENT_ID> 
+  GET rest/v2/payments_v2/<ID> 
 ```
 
 #### Query parameters
 
 | Parameter | Description                |
 | :-------- | :------------------------- |
-| `PAYMENT_ID` | **Required**.
+| `ID` | **Required**.
 
 #### Response example
 
@@ -114,14 +114,14 @@
 ## Подтверждение отправки фиата
 
 ```http
-  PATCH /rest/v2/payments_v2/<PAYMENT_ID>/update
+  PATCH /rest/v2/payments_v2/<ID>/update
 ```
 
 #### Query parameters
 
 | Parameter | Description                |
 | :-------- | :------------------------- |
-| `PAYMENT_ID` | **Required**.
+| `ID` | **Required**.
 
 #### Body parameters
 
