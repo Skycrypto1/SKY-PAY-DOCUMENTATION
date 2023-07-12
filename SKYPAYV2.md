@@ -70,7 +70,7 @@
 ## Получение информации по выполнению SKY PAY V2
 
 ```http
-  GET rest/v2/payment_v2/<PAYMENT_ID> 
+  GET rest/v2/payments_v2/<PAYMENT_ID> 
 ```
 
 #### Query parameters
