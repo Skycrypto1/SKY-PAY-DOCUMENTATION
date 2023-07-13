@@ -17,7 +17,7 @@
 | :-------- | :------- | :------------------------- |
  `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Сумма продажи RUB.
-| `broker_id` | `number` | **Required**.
+| `broker_id` | `string` | **Required**.
 | `requisites` | `string` | **Required**.
 | `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
 
