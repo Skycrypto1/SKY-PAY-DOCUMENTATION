@@ -9,7 +9,7 @@
 - Связаться с администратором SKY PAY для того, чтобы он активировал необходый функционал для интернет-площадки, предоставив ему Название.
   
 **API PROD** - https://papi.skycrypto.net или https://papi.skycrypto.me
- **API TEST**- http://35.179.52.209
+ **API TEST** - https://papi.trcrfortest.co
  
  ## API DOCUMENTATION
 - [**Sky Pay (Fiat purchase with redirect)**](SKYPAY.md)
