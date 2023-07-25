@@ -65,14 +65,15 @@
 ## Получение списка банков
 
 ```http
-  GET rest/v2/brokers?currency=rub&sky_pay=true
+  GET rest/v2/brokers?currency=rub
 ```
 #### Query parameters
 
 | Parameter | Description                |
 | :-------- | :------------------------- |
 | `currency` | **Required**. (rub, usd, kzt, uah, byn, tjs, azn, uzs)
-| `sky_pay` | Если флаг **true**, то в response придут только те брокеры, которые поддерживают SKY PAY
+| `sky_pay` | Если флаг **true**, то в response придут те брокеры, которые поддерживают SKY PAY
+| `sale_v2` | Если флаг **true**, то в response придут те брокеры, которые поддерживают SALE V2
 
 #### Response example
 
