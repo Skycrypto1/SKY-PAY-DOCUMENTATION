@@ -106,8 +106,8 @@
 }
 ```
 
-## Статусы оплаты SKY PAY V2
  <a name="paymentStatuses"></a>
+## Статусы оплаты SKY PAY V2
 | Payment status (status) | Description                |
 | :-------- |  :------------------------- |
 | `0` | Cозданный платеж |
