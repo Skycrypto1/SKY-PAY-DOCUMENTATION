@@ -6,6 +6,8 @@
 
 [Подтверждение отправки фиата](#confirmation)
 
+[Статусы оплаты SKY PAY V2](#paymentStatuses)
+
 <a name="skypay"></a>
 ## Создание SKY PAY V2
 
@@ -104,6 +106,7 @@
 }
 ```
 
+## Статусы оплаты SKY PAY V2
  <a name="paymentStatuses"></a>
 | Payment status (status) | Description                |
 | :-------- |  :------------------------- |
