@@ -98,7 +98,7 @@
   "lang": "ru"
 }
 ```
-
+ <a name="paymentStatuses"></a>
 | Sale status (status) | Description                |
 | :-------- |  :------------------------- |
 | `0` | Cозданная продажа |
