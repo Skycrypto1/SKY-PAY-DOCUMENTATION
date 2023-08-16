@@ -3,6 +3,8 @@
 [Создание SKY PAY](#skypay)
 
 [Получение информации по выполнению SKY PAY](#skypayinfo)
+
+[Статусы оплаты SKY PAY](#paymentStatuses)
  
 <a name="skypay"></a>
 ## Создание Fiat purchase redirect SKY PAY
@@ -126,6 +128,8 @@
     "web_link": "http://qpay.sky-crypto.com/payment/0fab873b-c035-4910-ad58-2adc80515945?ca=1000.0&s=btc&m=186715&l="
 }
 ```
+
+## Статусы оплаты SKY PAY
 <a name="paymentStatuses"></a>
 | Payment status (status) | Description                |
 | :-------- |  :------------------------- |
