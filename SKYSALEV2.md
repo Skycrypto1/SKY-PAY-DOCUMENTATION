@@ -5,6 +5,8 @@
 
 [Получение информации по выполнению SKY SALE V2](#skysaleinfo)
 
+[Статусы платежей SKY SALE V2](#paymentStatuses)
+
  <a name="skysale"></a>
 ## Создание SKY SALE V2
 
@@ -88,6 +90,8 @@
   "valid_minutes": 90
 }
 ```
+
+## Статусы платежей SKY SALE V2
  <a name="paymentStatuses"></a>
 | Sale status (status) | Description                |
 | :-------- |  :------------------------- |
