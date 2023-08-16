@@ -4,7 +4,7 @@
 
 [Получение информации по выполнению SKY PAY](#skypayinfo)
 
-[Статусы оплаты SKY PAY](#paymentStatuses)
+[Статусы платежей SKY PAY](#paymentStatuses)
  
 <a name="skypay"></a>
 ## Создание Fiat purchase redirect SKY PAY
@@ -129,7 +129,7 @@
 }
 ```
 
-## Статусы оплаты SKY PAY
+## Статусы платежей SKY PAY
 <a name="paymentStatuses"></a>
 | Payment status (status) | Description                |
 | :-------- |  :------------------------- |
