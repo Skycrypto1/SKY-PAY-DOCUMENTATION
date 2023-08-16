@@ -22,6 +22,7 @@
 | `currency` | `string` | **Required**. [Список валют](CURRENCIES.md)
 | `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true, для суммы в крипте – false |
 | `broker_id` | `string` | Используется для создания платежа на определенный банк
+| `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 90. [Статусы платежей](#paymentStatuses)
 
 #### Limits
 
@@ -63,7 +64,7 @@
   "requisites": null,
   "status": 0,
   "symbol": "btc",
-  "valid_minutes": 1440
+  "valid_minutes": 90
 }
 ```
  <a name="skypayinfo"></a>
@@ -99,10 +100,11 @@
   "requisites": 4452773861241948,
   "status": 1,
   "symbol": "btc",
-  "valid_minutes": 1440
+  "valid_minutes": 90
 }
 ```
 
+ <a name="paymentStatuses"></a>
 | Payment status (status) | Description                |
 | :-------- |  :------------------------- |
 | `0` | Cозданный платеж |
