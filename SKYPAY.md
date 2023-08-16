@@ -122,7 +122,7 @@
     "symbol": "btc",
     "token": null,
     "tx_hash": null,
-    "valid_minutes": 1440,
+    "valid_minutes": 90,
     "web_link": "http://qpay.sky-crypto.com/payment/0fab873b-c035-4910-ad58-2adc80515945?ca=1000.0&s=btc&m=186715&l="
 }
 ```
