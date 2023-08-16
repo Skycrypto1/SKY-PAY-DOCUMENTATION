@@ -5,6 +5,8 @@
 
 [Получение информации по выполнению SKY SALE](#skysaleinfo)
 
+[Статусы продажи SKY SALE](#paymentStatuses)
+
  <a name="skysale"></a>
 ## Создание SKY SALE
 
@@ -98,6 +100,8 @@
   "lang": "ru"
 }
 ```
+
+## Статусы продажи SKY SALE
  <a name="paymentStatuses"></a>
 | Sale status (status) | Description                |
 | :-------- |  :------------------------- |
