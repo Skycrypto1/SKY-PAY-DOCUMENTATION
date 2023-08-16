@@ -97,7 +97,8 @@
   "status": 0,
   "symbol": "btc",
   "web_link": "http://qpay.sky-crypto.com/sale/d9a9312e-78fc-4d99-9baf-8b6c0a7493d6?ca=10000&s=btc&m=186024&l=100311",
-  "lang": "ru"
+  "lang": "ru",
+  "valid_minutes": 90
 }
 ```
 
