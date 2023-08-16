@@ -102,7 +102,7 @@
 }
 ```
 
-## Статусы продажи SKY SALE
+## Статусы платежей SKY SALE
  <a name="paymentStatuses"></a>
 | Sale status (status) | Description                |
 | :-------- |  :------------------------- |
