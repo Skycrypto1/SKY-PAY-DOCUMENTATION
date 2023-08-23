@@ -22,7 +22,7 @@
 | `broker_id` | `string` | **Required**.
 | `requisites` | `string` | **Required**.
 | `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
-| `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 90. [Статусы платежей](#paymentStatuses)
+| `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
 
 #### Limits
 
@@ -55,7 +55,7 @@
   "requisites": "test v2 requisite",
   "status": 0,
   "symbol": "btc",
-  "valid_minutes": 90
+  "valid_minutes": 360
 }
 ```
  <a name="skysaleinfo"></a>
@@ -87,7 +87,7 @@
   "requisites": "test v2 requisite",
   "status": 2,
   "symbol": "btc",
-  "valid_minutes": 90
+  "valid_minutes": 360
 }
 ```
 
