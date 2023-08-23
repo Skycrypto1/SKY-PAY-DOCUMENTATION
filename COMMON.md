@@ -7,6 +7,8 @@
 [Получение списка банков](#brokers)
 
 [Получение биржевого курса криптовалют относительно валют](#exchange)
+
+[Получение истории платежей](#paymentHistory)
  
  <a name="balance"></a>
 ## Получение актуального баланса
@@ -124,5 +126,35 @@
         "rate": 1105277.0,
         "symbol": "btc"
     },
+    ...
+]
+
+ <a name="paymentHistory"></a>
+## Получение истории платежей
+
+```http
+  GET rest/v2/merchant-payment-statistics?action=sky-pay
+```
+#### Query parameters
+
+| Parameter | Description                |
+| :-------- | :------------------------- |
+| `action` | **Required**. Варианты: ["sky-pay", "sky-pay-v2", "sky-sale", "sky-sale-v2", "cpayment", "withdrawals"].
+
+#### Response example
+
+```javascript
+
+[
+    {
+        "amount": 1500.0,
+        "created_at": "2023-07-25T10:55:32.373747+00:00",
+        "currency": "rub",
+        "id": "6945d788-e857-4f79-835c-f807653fa828",
+        "is_currency_amount": true,
+        "label": "111111",
+        "status": 3,
+        "symbol": "btc"
+    }
     ...
 ]
