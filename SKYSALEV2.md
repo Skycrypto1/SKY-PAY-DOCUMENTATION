@@ -45,17 +45,20 @@
 
 ```javascript
 {
-  "amount": 10000,
-  "broker_id": "f79a6e4d-0f87-45d6-bbf8-5ee3d95cc3af",
-  "created_at": "2021-11-29T07:47:44.378517+00:00",
-  "deal": null,
-  "id": "11dcd487-9921-4c23-a19d-e00a9241a452",
-  "merchant_id": 156334,
-  "processed_at": null,
-  "requisites": "test v2 requisite",
-  "status": 0,
-  "symbol": "btc",
-  "valid_minutes": 360
+  "amount": 2000,
+  "broker_id": "fd70be25-5bb0-401f-a7a2-1f71c403caba",
+  "cancel_reason": null,
+  "client_order_id": null,
+  "created_at": "2023-08-16T11:11:55.772941+00:00",
+  "deal": null,
+  "id": "41f1acd0-db1c-456b-9b1d-c7bc2148e134",
+  "merchant_id": 186714,
+  "processed_at": null,
+  "requisites": "test v2 requisite",
+  "sent_crypto": 0.0,
+  "status": 0,
+  "symbol": "usdt",
+  "valid_minutes": 360
 }
 ```
  <a name="skysaleinfo"></a>
@@ -75,19 +78,20 @@
 
 ```javascript
 {
-  "amount": 3000,
-  "broker_id": "f79a6e4d-0f87-45d6-bbf8-5ee3d95cc3af",
-  "cancel_reason": null,
-  "client_order_id": null,
-  "created_at": "2023-06-05T12:56:22.671628+00:00",
-  "deal": "hclUWgBtLS",
-  "id": "3cb6d3cd-37f2-44b0-85cc-656b1a17f851",
-  "merchant_id": 186715,
-  "processed_at": "2023-06-05T12:57:01.956215+00:00",
-  "requisites": "test v2 requisite",
-  "status": 2,
-  "symbol": "btc",
-  "valid_minutes": 360
+  "amount": 2000,
+  "broker_id": "fd70be25-5bb0-401f-a7a2-1f71c403caba",
+  "cancel_reason": null,
+  "client_order_id": null,
+  "created_at": "2023-08-16T11:11:55.772941+00:00",
+  "deal": "FdvgWIDl0Q",
+  "id": "41f1acd0-db1c-456b-9b1d-c7bc2148e134",
+  "merchant_id": 186714,
+  "processed_at": "2023-08-16T11:12:39.206570+00:00",
+  "requisites": "test v2 requisite",
+  "sent_crypto": 21.00665569,
+  "status": 2,
+  "symbol": "usdt",
+  "valid_minutes": 360
 }
 ```
 
