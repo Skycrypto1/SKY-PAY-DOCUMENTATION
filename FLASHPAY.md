@@ -1,4 +1,4 @@
-<h1 align="center">FLASH PAY API</h1>
+<h1 align="center">FLASH PAY API (выплата)</h1>
  
 [Создание FLASH PAY](#flashpay)
 
