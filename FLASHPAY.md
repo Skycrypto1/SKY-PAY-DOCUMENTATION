@@ -1,4 +1,4 @@
-<h1 align="center">FLASH PAY API (приём)</h1>
+<h1 align="center">Приём</h1>
  
 [Создание приёма](#flashpay)
 
@@ -153,7 +153,7 @@
 }
 ```
 
-<h1 align="center">FLASH SALE API (выплата)</h1>
+<h1 align="center">Выплата</h1>
  
 
 [Создание выплаты](#flashsale)
