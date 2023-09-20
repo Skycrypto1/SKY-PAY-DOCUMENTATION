@@ -22,7 +22,7 @@
 - [**Widthdrawal v2 (Withdrawal without redirect)**](WITHDRAWAL.md)
 - [**Cpayment (Crypto purchase with redirect)**](CPAYMENT.md)
 - [**Flash Pay**]
-  - [**прием**](FLASHPAY.md)
-  - [**выплата**](FLASHPAY.md)
+    - [**прием**](FLASHPAY.md)
+    - [**выплата**](FLASHPAY.md)
 - [**Common**](COMMON.md)
 
