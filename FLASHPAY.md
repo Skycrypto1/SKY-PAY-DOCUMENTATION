@@ -1,15 +1,15 @@
-<h1 align="center">FLASH PAY API (выплата)</h1>
+<h1 align="center">FLASH PAY API (приём)</h1>
  
-[Создание FLASH PAY](#flashpay)
+[Создание приёма](#flashpay)
 
-[Получение информации по выполнению FLASH PAY](#flashpayinfo)
+[Получение информации по выполнению приёма](#flashpayinfo)
 
 [Подтверждение отправки фиата](#confirmation)
 
-[Статусы платежей FLASH PAY](#paymentStatuses)
+[Статусы платежей пприёма](#paymentStatuses)
 
 <a name="flashpay"></a>
-## Создание FLASH PAY
+## Создание приёма
 
 ```http
   POST /rest/v2/payments_v2 
@@ -72,7 +72,7 @@
 }
 ```
  <a name="flashpayinfo"></a>
-## Получение информации по выполнению FLASH PAY
+## Получение информации по выполнению приёма
 
 ```http
   GET rest/v2/payments_v2/<ID> 
@@ -110,7 +110,7 @@
 ```
 
  <a name="paymentStatuses"></a>
-## Статусы платежей FLASH PAY
+## Статусы платежей приёма
 | Payment status (status) | Description                |
 | :-------- |  :------------------------- |
 | `0` | Cозданный платеж |
@@ -153,17 +153,17 @@
 }
 ```
 
-<h1 align="center">FLASH SALE API</h1>
+<h1 align="center">FLASH SALE API (выплата)</h1>
  
 
-[Создание FLASH SALE](#flashsale)
+[Создание выплаты](#flashsale)
 
-[Получение информации по выполнению SKY SALE V2](#flashsaleinfo)
+[Получение информации по выполнению выплаты](#flashsaleinfo)
 
-[Статусы платежей FLASH SALE](#paymentStatuses)
+[Статусы платежей выплат](#paymentStatuses)
 
  <a name="flashsale"></a>
-## Создание FLASH SALE
+## Создание выплаты
 
 ```http
   POST /rest/v2/sale_v2 
@@ -220,7 +220,7 @@
 }
 ```
  <a name="flashsaleinfo"></a>
-## Получение информации по выполнению FLASH SALE
+## Получение информации по выполнению выплаты
 
 ```http
   GET rest/v2/sale_v2/<ID> 
@@ -254,7 +254,7 @@
 }
 ```
 
-## Статусы платежей FLASH SALE
+## Статусы платежей выплаты
  <a name="paymentStatuses"></a>
 | Sale status (status) | Description                |
 | :-------- |  :------------------------- |
