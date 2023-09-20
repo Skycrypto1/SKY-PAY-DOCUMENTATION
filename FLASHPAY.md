@@ -6,7 +6,7 @@
 
 [Подтверждение отправки фиата](#confirmation)
 
-[Статусы платежей пприёма](#paymentStatuses)
+[Статусы платежей приёма](#paymentStatuses)
 
 <a name="flashpay"></a>
 ## Создание приёма
