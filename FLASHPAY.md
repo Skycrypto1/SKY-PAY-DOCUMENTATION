@@ -18,7 +18,7 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `is_flash` | `number` | **Required**. Для создания FLASH PAY данное поле должно быть со значением **true**.
+| `is_flash` | `number` | **Required**. Для создания приёма данное поле должно быть со значением **true**.
 | `amount` | `number` | **Required**. Сумма покупки. [Посмотреть информацию по лимитам валют](CURRENCIES.md)
 | `label` | `string` | **Required**. Hash который заедается мерчантом
 | `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
@@ -172,7 +172,7 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `is_flash` | `boolean` | **Required**. Для создания FLASH SALE данное поле должно быть со значением **true**.
+| `is_flash` | `boolean` | **Required**. Для создания выплаты данное поле должно быть со значением **true**.
  `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Сумма продажи RUB.
 | `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md)
