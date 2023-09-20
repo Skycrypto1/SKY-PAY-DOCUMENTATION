@@ -21,7 +21,7 @@
 - [**Sky Sale v2 (Fiat sale without redirect)**](SKYSALEV2.md)
 - [**Widthdrawal v2 (Withdrawal without redirect)**](WITHDRAWAL.md)
 - [**Cpayment (Crypto purchase with redirect)**](CPAYMENT.md)
-- [**Flash Pay**]
+- **Flash Pay**
     - [**прием**](FLASHPAY.md)
     - [**выплата**](FLASHPAY.md)
 - [**Common**](COMMON.md)
