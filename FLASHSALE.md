@@ -17,7 +17,7 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `is_flash` | `boolean` | **Required**. Поле должно быть со значением **true**. 
+| `is_flash` | `boolean` | **Required**. Для создания FLASH SALE данное поле должно быть со значением **true**.
  `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Сумма продажи RUB.
 | `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md)
