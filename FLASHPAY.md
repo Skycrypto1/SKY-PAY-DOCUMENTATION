@@ -62,7 +62,6 @@
   "id": "6e7e9421-9e08-4ecd-93c8-abc3559642bc",
   "is_currency_amount": true,
   "label": "642002",
-  "is_flash": true,
   "merchant_id": 120222,
   "processed_at": null,
   "received_crypto": 0.0,
@@ -98,7 +97,6 @@
   "fiat_sent": false,
   "id": "6e7e9421-9e08-4ecd-93c8-abc3559642bc",
   "is_currency_amount": true,
-  "is_flash": true,
   "label": "642002",
   "merchant_id": 120222,
   "processed_at": null,
@@ -216,7 +214,6 @@
   "sent_crypto": 0.0,
   "status": 0,
   "symbol": "usdt",
-  "is_flash": true,
   "valid_minutes": 360
 }
 ```
