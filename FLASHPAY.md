@@ -247,7 +247,6 @@
   "sent_crypto": 21.00665569,
   "status": 2,
   "symbol": "usdt",
-  "is_flash": true,
   "valid_minutes": 360
 }
 ```
