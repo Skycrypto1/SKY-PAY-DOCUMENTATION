@@ -112,7 +112,9 @@
   "requisites": 4452773861241948,
   "status": 1,
   "symbol": "usdt",
-  "valid_minutes": 360
+  "valid_minutes": 360,
+  "client_name": "Stan Smith",
+  "client_email": "test@mail.co"
 }
 ```
 
@@ -256,8 +258,6 @@
   "status": 2,
   "symbol": "usdt",
   "valid_minutes": 360,
-  "client_name": "Stan Smith",
-  "client_email": "test@mail.co"
 }
 ```
 
