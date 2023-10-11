@@ -47,7 +47,6 @@
   "currency": "rub",
   "is_currency_amount": true,
   "broker_id": "ad70be25-5bb0-401f-a7a2-1f71c403cabf",
-  "valid_minutes": 360
 }
 ```
 
