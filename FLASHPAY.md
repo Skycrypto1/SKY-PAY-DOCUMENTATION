@@ -255,7 +255,9 @@
   "sent_crypto": 21.00665569,
   "status": 2,
   "symbol": "usdt",
-  "valid_minutes": 360
+  "valid_minutes": 360,
+  "client_name": "Stan Smith",
+  "client_email": "test@mail.co"
 }
 ```
 
