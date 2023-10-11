@@ -26,6 +26,8 @@
 | `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true, для суммы в крипте – false |
 | `broker_id` | `string` | Используется для создания платежа на определенный банк. [Список банков](FLASHPAY_BROKERS.md)
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
+| `client_name` | `string` | ФИО клиента.
+| `client_email` | `string` | E-mail клиента.
 
 #### Limits
 
@@ -33,6 +35,8 @@
 | :-------- | :-------  |
 | `amount` | minimum: **0.0001**; maximum: **100000000**
 | `label` | maxLength: **256**
+| `client_name` | maxLength: **64**
+| `client_email` | maxLength: **64**
 
 #### Body example
 
