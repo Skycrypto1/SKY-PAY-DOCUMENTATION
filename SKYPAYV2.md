@@ -25,6 +25,8 @@
 | `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true, для суммы в крипте – false |
 | `broker_id` | `string` | Используется для создания платежа на определенный банк
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
+| `client_name` | `string` | ФИО клиента.
+| `client_email` | `string` | E-mail клиента.
 
 #### Limits
 
@@ -32,6 +34,8 @@
 | :-------- | :-------  |
 | `amount` | minimum: **0.0001**; maximum: **100000000**
 | `label` | maxLength: **256**
+| `client_name` | maxLength: **64**
+| `client_email` | maxLength: **64**
 
 #### Body example
 
@@ -42,7 +46,8 @@
   "symbol": "btc",
   "currency": "rub",
   "is_currency_amount": true,
-  "broker_id": "ad70be25-5bb0-401f-a7a2-1f71c403cabf"
+  "broker_id": "ad70be25-5bb0-401f-a7a2-1f71c403cabf",
+  "valid_minutes": 360
 }
 ```
 
