@@ -50,7 +50,7 @@
   "is_currency_amount": true,
   "broker_id": "ad70be25-5bb0-401f-a7a2-1f71c403cabf",
   "client_name": "Stan Smith",
-  "client_email": "test@mail.co",
+  "client_email": "test@mail.co"
 }
 ```
 
