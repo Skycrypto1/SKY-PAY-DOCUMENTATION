@@ -41,7 +41,7 @@
   "label": "100311",
   "symbol": "btc",
   "currency": "rub",
-  "back_url": "https://myservice.com/payment/100311",
+  "back_url": "https://myservice.com/payment/100311"
 }
 ```
 
