@@ -22,6 +22,12 @@
 | `label` | `string` | Hash который заедается мерчантом
 | `lang` | `string` | Используется для установки языка интерфейса SKY PAY. По дефолту - 'ru'. [Список языков SKY PAY](SKYPAYLANGUAGES.md)
 
+#### Limits
+
+| Parameter | Rules     |
+| :-------- | :-------  |
+| `label` | maxLength: **256**
+
 #### Body example
 
 ```javascript
