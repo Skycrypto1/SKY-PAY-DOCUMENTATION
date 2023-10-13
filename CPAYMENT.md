@@ -19,6 +19,7 @@
 | :-------- | :------- | :------------------------- |
 | `currency` | `string` | **Required**. [Список валют](CURRENCIESCPAYMENT.md)
 | `amount_currency` | `number` | **Required**. Сумма оплаты. [Посмотреть информацию по лимитам валют](CURRENCIESCPAYMENT.md)
+| `label` | `string` | Hash который заедается мерчантом
 | `lang` | `string` | Используется для установки языка интерфейса SKY PAY. По дефолту - 'ru'. [Список языков SKY PAY](SKYPAYLANGUAGES.md)
 
 #### Body example
