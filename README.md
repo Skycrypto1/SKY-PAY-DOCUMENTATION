@@ -9,7 +9,7 @@
    - Sale callback URL - [Информация из response Sky Sale](SKYSALE.md#Получение-информации-по-выполнению-SKY-SALE)
    - Cpayment callback URL - [Информация из response Cpayment](CPAYMENT.md#Получение-информации-по-CPAYMENT)
 
-    На странице https://skycrypto.me/merchant **(cсылка на тестовое окружение - по запросу к поддержке)** существует возможность шифровать callback, активировав соответствующий переключатель. Подробнее о шифровании callback Вы можете прочитать на странице [Информации по шифрованию Callback](CALLBACK_ENCRYPTION.md)
+    На странице https://skycrypto.me/merchant **(cсылка на тестовое окружение - по запросу к поддержке)** существует возможность шифровать callback, активировав соответствующий переключатель. Подробнее о шифровании callback Вы можете прочитать на странице [Шифрование Callback](CALLBACK_ENCRYPTION.md)
 - Связаться с администратором SKY PAY для того, чтобы он активировал необходый функционал для интернет-площадки, предоставив ему Название.
   
 **API PROD** - https://papi.skycrypto.net или https://papi.skycrypto.me
