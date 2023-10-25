@@ -57,8 +57,33 @@ const sigElements = {
   "date": "Mon, 23 Oct 2023 17:06:14 GMT",
   "@signature-params": '("@method" "@authority" "@target-uri" "content-digest" "date");created=1698080774;keyid="16335dd55d344700acbdd83de436e90c";alg="hmac-sha256"'
 };
+
+Пример кода на **PHP**:
+
+```PHP
+<?php
+function getSignature($data, $secretKey) {
+    $sigBase = implode("\n", array_map(function($key, $value) {
+        return "\"$key\": $value";
+    }, array_keys($data), $data));
  
-const secretKey = '29fad1cbcf574a0f9cddf2504fe8f73c';  // Замените на ваш фактический секретный ключ
+    $signature = hash_hmac('sha256', $sigBase, $secretKey, true);
+    $base64Signature = base64_encode($signature);
  
-result_signature = getSignature(sigElements, secretKey);
+    return $base64Signature;
+}
+ 
+$sigElements = [
+    "@method" => "POST",
+    "@authority" => "webhook.site",
+    "@target-uri" => "https://webhook.site/58e17407-e67a-4154-b669-88f1ec61f491",
+    "content-digest" => "sha-256=:GUi7pi//QbqRKLSDrRl8M1WDazFIw6Lhucx+V79ZgLQ=:",
+    "date" => "Mon, 23 Oct 2023 17:06:14 GMT",
+    "@signature-params" => '("@method" "@authority" "@target-uri" "content-digest" "date");created=1698080774;keyid="16335dd55d344700acbdd83de436e90c";alg="hmac-sha256"'
+];
+ 
+$secretKey = '29fad1cbcf574a0f9cddf2504fe8f73c';  // Замените на ваш фактический секретный ключ
+ 
+$resultSignature = getSignature($sigElements, $secretKey);
+?>
 ```
