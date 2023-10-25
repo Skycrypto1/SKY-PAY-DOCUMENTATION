@@ -91,7 +91,7 @@ $resultSignature = getSignature($sigElements, $secretKey);
 
 Пояснения к коду:
 
-```javascript
+```python
 sig_elements = {
 "@method": "POST", # Метод callback
 "@authority": "webhook.site", # Берется из header host
