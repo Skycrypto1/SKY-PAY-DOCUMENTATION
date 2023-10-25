@@ -18,9 +18,6 @@ def get_signature(data: dict, secret_key: str) -> str:
     ).digest()
     base64_signature = base64.b64encode(signature).decode()
     return base64_signature
- 
-secret = "your_secret_key"
-result_signature = get_signature(sig_elements, secret)
 
 sig_elements = {
     "@method": "POST",
@@ -30,6 +27,9 @@ sig_elements = {
     "date": "Mon, 23 Oct 2023 17:06:14 GMT",
     "@signature-params": '("@method" "@authority" "@target-uri" "content-digest" "date");created=1698080774;keyid="16335dd55d344700acbdd83de436e90c";alg="hmac-sha256"'
 }
+
+secret = "your_secret_key"
+result_signature = get_signature(sig_elements, secret)
 # Дальше эта подпись сравнивается с той, которая пришла в запросе, тем самым проверяется подлинность
 ```
 
