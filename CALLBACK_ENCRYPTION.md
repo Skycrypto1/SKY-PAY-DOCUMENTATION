@@ -57,6 +57,7 @@ const sigElements = {
   "date": "Mon, 23 Oct 2023 17:06:14 GMT",
   "@signature-params": '("@method" "@authority" "@target-uri" "content-digest" "date");created=1698080774;keyid="16335dd55d344700acbdd83de436e90c";alg="hmac-sha256"'
 };
+```
 
 Пример кода на **PHP**:
 
