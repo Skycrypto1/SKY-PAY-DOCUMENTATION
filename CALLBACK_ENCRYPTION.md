@@ -34,7 +34,7 @@ result_signature = get_signature(sig_elements, secret)
 
 Пример кода на **Javascript**:
 
-```js
+```javascript
 const crypto = require('crypto');
  
 function getSignature(data, secretKey) {
