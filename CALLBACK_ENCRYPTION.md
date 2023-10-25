@@ -88,3 +88,16 @@ $secretKey = '29fad1cbcf574a0f9cddf2504fe8f73c';  // Замените на ва�
 $resultSignature = getSignature($sigElements, $secretKey);
 ?>
 ```
+
+Пояснения к коду:
+
+```
+sig_elements = {
+"@method": "POST", # Метод callback
+"@authority": "webhook.site", # Берется из header host
+"@target-uri": "https://webhook.site/58e17407-e67a-4154-b669-88f1ec61f491", # Адрес для получения callback
+"content-digest": "sha-256=:GUi7pi//QbqRKLSDrRl8M1WDazFIw6Lhucx+V79ZgLQ=:", # берется из header content-digest
+"date": "Mon, 23 Oct 2023 17:06:14 GMT", # берется из header date
+"@signature-params": '("@method" "@authority" "@target-uri" "content-digest" "date");created=1698080774;keyid="16335dd55d344700acbdd83de436e90c";alg="hmac-sha256"' # берется из header signature-input всё после pyhms=
+Далее resultSignature необходимо сравнить с signature, которая приходит в header signature. Если имеется совпадение, то значит, что информация в callback изменена не была.
+```
