@@ -36,7 +36,8 @@ result_signature = get_signature(sig_elements, secret)
 
 ```javascript
 const crypto = require('crypto');
- 
+const secret = "your_secret_key"; // Замените на ваш фактический секретный ключ
+
 function getSignature(data, secretKey) {
   const sigBase = Object.entries(data)
     .map(([key, value]) => `"${key}": ${value}`)
@@ -48,6 +49,8 @@ function getSignature(data, secretKey) {
   
   return signature;
 }
+
+const resultSignature = getSignature(sig_elements, secret)
  
 const sigElements = {
   "@method": "POST",
@@ -83,7 +86,7 @@ $sigElements = [
     "@signature-params" => '("@method" "@authority" "@target-uri" "content-digest" "date");created=1698080774;keyid="16335dd55d344700acbdd83de436e90c";alg="hmac-sha256"'
 ];
  
-$secretKey = '29fad1cbcf574a0f9cddf2504fe8f73c';  // Замените на ваш фактический секретный ключ
+$secretKey = "your_secret_key"  // Замените на ваш фактический секретный ключ
  
 $resultSignature = getSignature($sigElements, $secretKey);
 ?>
