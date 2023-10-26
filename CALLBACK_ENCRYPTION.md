@@ -30,7 +30,6 @@ sig_elements = {
 
 secret = "your_secret_key"
 result_signature = get_signature(sig_elements, secret)
-# Дальше эта подпись сравнивается с той, которая пришла в запросе, тем самым проверяется подлинность
 ```
 
 Пример кода на **Javascript**:
