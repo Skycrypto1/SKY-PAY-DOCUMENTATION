@@ -23,5 +23,6 @@
 - [**Widthdrawal v2 (Withdrawal without redirect)**](WITHDRAWAL.md)
 - [**Cpayment (Crypto purchase with redirect)**](CPAYMENT.md)
 - [**Flash Pay**](FLASHPAY.md)
+- [**Callback encryption**](CALLBACK_ENCRYPTION.md)
 - [**Common**](COMMON.md)
 
