@@ -3,7 +3,6 @@
 **Приём**: <iframe src='https://skycrypto.shop/flashpay/payment/{id}'/>
 
 **Выплата**: <iframe src='https://skycrypto.shop/flashpay/sale/{id}'/>
-![Изображение](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1920px-Markdown-mark.svg.png "Логотип Markdown")
 
 
 <h1 align="center">Приём</h1>
