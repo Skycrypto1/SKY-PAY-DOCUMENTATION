@@ -1,6 +1,6 @@
 Для интеграции FlashPay на сайте необходимо указать ссылку на FlashPay в iframe, к примеру:
 
-**Приём**: <iframe src='https://skycrypto.shop/flashpay/payment/{id}'/>
+**Приём**: <iframe src="https://skycrypto.shop/flashpay/payment/{id}"/>
 
 **Выплата**: <iframe src='https://skycrypto.shop/flashpay/sale/{id}'/>
 
