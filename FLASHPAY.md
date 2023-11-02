@@ -2,7 +2,7 @@
 
 **Приём**: <iframe src='https://skycrypto.shop/flashpay/payment/{id}' />
 
-**Выплата**: <iframe src='https://skycrypto.shop/flashpay/sale/{id}'/>
+**Выплата**: <iframe src='https://skycrypto.shop/flashpay/sale/{id}' />
 
 
 <h1 align="center">Приём</h1>
