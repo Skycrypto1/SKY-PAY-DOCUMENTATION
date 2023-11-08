@@ -5,7 +5,9 @@
 
  - На странице https://skycrypto.me/merchant **(cсылка на тестовое окружение - по запросу к поддержке)** заполнить в SKY API параметры интернет-площадки: Название, Сайт, Логотип, которые будут отображаться в заказе SKY PAY. Нажать на кнопку "Перегенерировать токен" и получить свой уникальный TOKEN. Полученный таким образом TOKEN используется во всех запросах, указанных в настоящей документации, в следующем формате: **Authorization: Token < TOKEN >**.
  - Если указать callback_url, то после успешного/не успешного платежа на адрес callback_url придет POST запрос с данными платежа.  Если запрос на callback_url не успешен, он будет отсылаться раз в минуту, пока не получит в ответ HTTP Status Code 200. Описание параметров, которые придут на callback:
-   - Purchase callback URL - [Информация из response Sky Pay](SKYPAY.md#Получение-информации-по-выполнению-SKY-PAY)
+   - Purchase callback URL:
+     - [Информация из response Sky Pay](SKYPAY.md#Получение-информации-по-выполнению-SKY-PAY)
+     - [Информация из response Sky Pay](SKYPAY.md#Получение-информации-по-выполнению-SKY-PAY)  
    - Sale callback URL - [Информация из response Sky Sale](SKYSALE.md#Получение-информации-по-выполнению-SKY-SALE)
    - Cpayment callback URL - [Информация из response Cpayment](CPAYMENT.md#Получение-информации-по-CPAYMENT)
 
