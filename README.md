@@ -7,7 +7,7 @@
  - Если указать callback_url, то после успешного/не успешного платежа на адрес callback_url придет POST запрос с данными платежа.  Если запрос на callback_url не успешен, он будет отсылаться раз в минуту, пока не получит в ответ HTTP Status Code 200. Описание параметров, которые придут на callback:
    - Purchase callback URL:
      - Для Sky Pay - [Информация из response Sky Pay](SKYPAY.md#Получение-информации-по-выполнению-SKY-PAY)
-     - Для Sky Pay v2 и Flash Pay (Приём) - [Информация из response Sky Pay](SKYPAYV2.md#Получение-информации-по-выполнению-SKY-PAY-V2)  
+     - Для Sky Pay v2 и Flash Pay (Приём) - [Информация из response Sky Pay v2](SKYPAYV2.md#Получение-информации-по-выполнению-SKY-PAY-V2)  
    - Sale callback URL - [Информация из response Sky Sale](SKYSALE.md#Получение-информации-по-выполнению-SKY-SALE)
    - Cpayment callback URL - [Информация из response Cpayment](CPAYMENT.md#Получение-информации-по-CPAYMENT)
 
