@@ -7,10 +7,12 @@
  - Если указать callback_url, то после успешного/не успешного платежа на адрес callback_url придет POST запрос с данными платежа.  Если запрос на callback_url не успешен, он будет отсылаться раз в минуту, пока не получит в ответ HTTP Status Code 200. Описание параметров, которые придут на callback:
    - Purchase callback URL:
      - Для Sky Pay - [Информация из response Sky Pay](SKYPAY.md#Получение-информации-по-выполнению-SKY-PAY)
-     - Для Sky Pay v2 и Flash Pay (Приём) - [Информация из response Sky Pay v2](SKYPAYV2.md#Получение-информации-по-выполнению-SKY-PAY-V2)  
+     - Для Sky Pay v2 - [Информация из response Sky Pay v2](SKYPAYV2.md#Получение-информации-по-выполнению-SKY-PAY-V2)
+     - Для Flash Pay (Приём) - [Информация из response Flash Pay (Приём)](FLASHPAY.md#Приём)
    - Sale callback URL:
      -  Для Sky Sale - [Информация из response Sky Sale](SKYSALE.md#Получение-информации-по-выполнению-SKY-SALE)
-     - Для Sky Sale v2 и Flash Pay (Выплата) - [Информация из response Sky Sale v2](SKYSALEV2.md#Получение-информации-по-выполнению-SKY-SALE-V2)  
+     - Для Sky Sale v2 - [Информация из response Sky Sale v2](SKYSALEV2.md#Получение-информации-по-выполнению-SKY-SALE-V2)
+     - Для Flash Pay (Выплата) - [Информация из response Flash Pay (Выплата)](FLASHPAY.md#Выплата) 
    - Cpayment callback URL - [Информация из response Cpayment](CPAYMENT.md#Получение-информации-по-CPAYMENT)
 
     На странице https://skycrypto.me/merchant **(cсылка на тестовое окружение - по запросу к поддержке)** существует возможность шифровать callback, активировав соответствующий переключатель и нажав на кнопку "Перегенерировать ключи шифрования". Подробнее о шифровании callback Вы можете прочитать на странице [Шифрование Callback](CALLBACK_ENCRYPTION.md)
