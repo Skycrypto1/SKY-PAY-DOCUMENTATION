@@ -8,7 +8,6 @@
    - Purchase callback URL:
      - Для Sky Pay - [Информация из response Sky Pay](SKYPAY.md#Получение-информации-по-выполнению-SKY-PAY)
      - Для Sky Pay v2 и Flash Pay (Приём) - [Информация из response Sky Pay v2](SKYPAYV2.md#Получение-информации-по-выполнению-SKY-PAY-V2)  
-   - Sale callback URL - [Информация из response Sky Sale](SKYSALE.md#Получение-информации-по-выполнению-SKY-SALE)
    - Sale callback URL:
      -  Для Sky Sale - [Информация из response Sky Sale](SKYSALE.md#Получение-информации-по-выполнению-SKY-SALE)
      - Для Sky Sale v2 и Flash Pay (Выплата) - [Информация из response Sky Sale v2](SKYSALEV2.md#Получение-информации-по-выполнению-SKY-SALE-V2)  
