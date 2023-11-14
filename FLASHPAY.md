@@ -30,7 +30,7 @@
 | `label` | `string` | **Required**. Hash который заедается мерчантом
 | `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [Список валют](CURRENCIES.md)
-| `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true, для суммы в крипте – false |
+| `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true |
 | `broker_id` | `string` | Используется для создания платежа на определенный банк. [Список банков](FLASHPAY_BROKERS.md)
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
 | `client_name` | `string` | ФИО клиента.
