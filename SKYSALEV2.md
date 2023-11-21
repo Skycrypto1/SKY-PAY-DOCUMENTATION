@@ -61,7 +61,7 @@
   "sent_crypto": 0.0,
   "status": 0,
   "symbol": "usdt",
-  "valid_minutes": 360,
+  "valid_minutes": 360
 }
 ```
  <a name="skysaleinfo"></a>
