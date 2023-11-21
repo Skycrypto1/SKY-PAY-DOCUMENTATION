@@ -193,6 +193,7 @@
 | `amount` | `number` | **Required**. Сумма продажи RUB.
 | `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md)
 | `requisites` | `string` | **Required**.
+ | `currency` | `string` | **Required**. [Список валют](#CURRENCIES.md)
 | `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
 
@@ -210,7 +211,8 @@
   "is_flash": true,
   "amount": 10000,
   "broker_id": "f79a6e4d-0f87-45d6-bbf8-5ee3d95cc3af",
-  "requisites": "test flash sale requisite”
+  "requisites": "test flash sale requisite”,
+  "currency": "usd"
 }
 ```
 
@@ -231,7 +233,8 @@
   "sent_crypto": 0.0,
   "status": 0,
   "symbol": "usdt",
-  "valid_minutes": 360
+  "valid_minutes": 360,
+  "currency": "usd"
 }
 ```
  <a name="flashsaleinfo"></a>
