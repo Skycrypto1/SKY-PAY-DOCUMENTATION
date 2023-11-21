@@ -193,7 +193,7 @@
 | `amount` | `number` | **Required**. Сумма продажи RUB.
 | `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md)
 | `requisites` | `string` | **Required**.
- | `currency` | `string` | **Required**. [Список валют](CURRENCIES_SALES.md)
+ | `currency` | `string` | По дефолту - 'rub'. [Список валют](CURRENCIES_SALES.md)
 | `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
 
