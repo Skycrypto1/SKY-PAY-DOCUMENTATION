@@ -83,7 +83,8 @@
   "symbol": "usdt",
   "valid_minutes": 360,
   "client_name": "Stan Smith",
-  "client_email": "test@mail.co"
+  "client_email": "test@mail.co",
+  "web_link": "https://shop.trcrfortest.co/flashpay/payment/b5a3f8be-f3e8-431d-bf15-9a632fcf8e14"
 }
 ```
  <a name="flashpayinfo"></a>
@@ -121,7 +122,8 @@
   "symbol": "usdt",
   "valid_minutes": 360,
   "client_name": "Stan Smith",
-  "client_email": "test@mail.co"
+  "client_email": "test@mail.co",
+  "web_link": "https://shop.trcrfortest.co/flashpay/payment/b5a3f8be-f3e8-431d-bf15-9a632fcf8e14"
 }
 ```
 
@@ -234,7 +236,8 @@
   "sent_crypto": 0.0,
   "status": 0,
   "symbol": "usdt",
-  "valid_minutes": 360
+  "valid_minutes": 360,
+  "web_link": "https://shop.trcrfortest.co/flashpay/sale/ce7c423e-1a38-449a-a80d-a24886e96153"
 }
 ```
  <a name="flashsaleinfo"></a>
@@ -268,7 +271,8 @@
   "sent_crypto": 21.00665569,
   "status": 2,
   "symbol": "usdt",
-  "valid_minutes": 360
+  "valid_minutes": 360,
+  "web_link": "https://shop.trcrfortest.co/flashpay/sale/ce7c423e-1a38-449a-a80d-a24886e96153"
 }
 ```
 
