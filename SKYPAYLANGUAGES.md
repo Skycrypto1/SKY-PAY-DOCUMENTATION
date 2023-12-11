@@ -1,4 +1,4 @@
-#### SKY PAY CONTENT LANGUAGES 
+#### CONTENT LANGUAGES 
 
 | language|
 | :------|
