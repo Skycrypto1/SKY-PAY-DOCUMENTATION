@@ -31,6 +31,7 @@
 | `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [Список валют](CURRENCIES.md)
 | `is_currency_amount` | `boolean` | **Required**. Для Flash Pay значение должно быть true
+| `lang` | `string` | Используется для установки языка интерфейса FlashPay. По дефолту - 'ru'. [Список языков FlashPay](SKYPAYLANGUAGES.md)
 | `broker_id` | `string` | Используется для создания платежа на определенный банк. [Список банков](FLASHPAY_BROKERS.md)
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
 | `client_name` | `string` | ФИО клиента.
@@ -75,6 +76,7 @@
   "id": "6e7e9421-9e08-4ecd-93c8-abc3559642bc",
   "is_currency_amount": true,
   "label": "642002",
+  "lang": "ru",
   "merchant_id": 120222,
   "processed_at": null,
   "received_crypto": 0.0,
@@ -119,6 +121,7 @@
   "received_crypto": 0.0,
   "requisites": 4452773861241948,
   "status": 1,
+  "lang": "ru",
   "symbol": "usdt",
   "valid_minutes": 360,
   "client_name": "Stan Smith",
@@ -195,6 +198,7 @@
 | `amount` | `number` | **Required**. Сумма продажи RUB.
 | `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md)
 | `requisites` | `string` | **Required**.
+| `lang` | `string` | Используется для установки языка интерфейса FlashSale. По дефолту - 'ru'. [Список языков FlashSale](SKYPAYLANGUAGES.md)
  | `currency` | `string` | По дефолту - 'rub'. [Список валют](CURRENCIES_SALES.md)
 | `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
@@ -235,6 +239,7 @@
   "requisites": "test v2 requisite",
   "sent_crypto": 0.0,
   "status": 0,
+  "lang": "ru",
   "symbol": "usdt",
   "valid_minutes": 360,
   "web_link": "https://shop.trcrfortest.co/flashpay/sale/ce7c423e-1a38-449a-a80d-a24886e96153"
@@ -263,6 +268,7 @@
   "client_order_id": null,
   "created_at": "2023-08-16T11:11:55.772941+00:00",
   "currency": "rub",
+  "lang": "ru",
   "deal": "FdvgWIDl0Q",
   "id": "41f1acd0-db1c-456b-9b1d-c7bc2148e134",
   "merchant_id": 186714,
