@@ -76,7 +76,8 @@
   "valid_minutes": 360,
   "client_name": "Stan Smith",
   "client_email": "test@mail.co",
-  "lang": "ru"
+  "lang": "ru",
+  "rate": 3850026.30
 }
 ```
  <a name="skypayinfo"></a>
@@ -115,7 +116,8 @@
   "symbol": "btc",
   "valid_minutes": 360,
   "client_name": "Stan Smith",
-  "client_email": "test@mail.co"
+  "client_email": "test@mail.co",
+  "rate": 3850026.30
 }
 ```
 
