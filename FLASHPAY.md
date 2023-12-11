@@ -245,7 +245,6 @@
   "symbol": "usdt",
   "valid_minutes": 360,
   "web_link": "https://shop.trcrfortest.co/flashpay/sale/ce7c423e-1a38-449a-a80d-a24886e96153",
-  "rate": 3850026.30
 }
 ```
  <a name="flashsaleinfo"></a>
@@ -282,7 +281,6 @@
   "symbol": "usdt",
   "valid_minutes": 360,
   "web_link": "https://shop.trcrfortest.co/flashpay/sale/ce7c423e-1a38-449a-a80d-a24886e96153",
-  "rate": 3850026.30
 }
 ```
 
