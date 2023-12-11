@@ -23,6 +23,7 @@
 | `requisites` | `string` | **Required**.
  | `currency` | `string` | По дефолту - 'rub'. [Список валют](CURRENCIES_SALES.md)
 | `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
+| `lang` | `string` | Используется для установки языка интерфейса SKY SALE V2. По дефолту - 'ru'. [Список языков SKY SALE V2](SKYPAYLANGUAGES.md)
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
 
 #### Limits
@@ -61,7 +62,8 @@
   "sent_crypto": 0.0,
   "status": 0,
   "symbol": "usdt",
-  "valid_minutes": 360
+  "valid_minutes": 360,
+  "lang": "ru"
 }
 ```
  <a name="skysaleinfo"></a>
@@ -87,6 +89,7 @@
   "client_order_id": null,
   "created_at": "2023-08-16T11:11:55.772941+00:00",
   "currency": "rub",
+  "lang": "ru"
   "deal": "FdvgWIDl0Q",
   "id": "41f1acd0-db1c-456b-9b1d-c7bc2148e134",
   "merchant_id": 186714,
