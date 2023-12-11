@@ -27,6 +27,7 @@
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
 | `client_name` | `string` | ФИО клиента.
 | `client_email` | `string` | E-mail клиента.
+| `lang` | `string` | Используется для установки языка интерфейса SKY PAY V2. По дефолту - 'ru'. [Список языков SKY PAY V2](SKYPAYLANGUAGES.md)
 
 #### Limits
 
@@ -74,7 +75,8 @@
   "symbol": "btc",
   "valid_minutes": 360,
   "client_name": "Stan Smith",
-  "client_email": "test@mail.co"
+  "client_email": "test@mail.co",
+  "lang": "ru"
 }
 ```
  <a name="skypayinfo"></a>
@@ -109,6 +111,7 @@
   "received_crypto": 0.0,
   "requisites": 4452773861241948,
   "status": 1,
+  "lang": "ru",
   "symbol": "btc",
   "valid_minutes": 360,
   "client_name": "Stan Smith",
