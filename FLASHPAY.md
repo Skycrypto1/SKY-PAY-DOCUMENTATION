@@ -200,6 +200,7 @@
 | `amount` | `number` | **Required**. Сумма продажи RUB.
 | `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md)
 | `requisites` | `string` | **Required**.
+| `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true, для суммы в крипте – false 
 | `lang` | `string` | Используется для установки языка интерфейса FlashSale. По дефолту - 'ru'. [Список языков FlashSale](SKYPAYLANGUAGES.md)
  | `currency` | `string` | По дефолту - 'rub'. [Список валют](CURRENCIES_SALES.md)
 | `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
@@ -218,6 +219,7 @@
   "symbol": "usdt",
   "is_flash": true,
   "amount": 10000,
+  "is_currency_amount": true,
   "broker_id": "f79a6e4d-0f87-45d6-bbf8-5ee3d95cc3af",
   "requisites": "test flash sale requisite”,
   "currency": "rub"
@@ -237,6 +239,7 @@
   "deal": null,
   "id": "41f1acd0-db1c-456b-9b1d-c7bc2148e134",
   "merchant_id": 186714,
+  "is_currency_amount": true,
   "processed_at": null,
   "requisites": "test v2 requisite",
   "sent_crypto": 0.0,
@@ -274,6 +277,7 @@
   "deal": "FdvgWIDl0Q",
   "id": "41f1acd0-db1c-456b-9b1d-c7bc2148e134",
   "merchant_id": 186714,
+  "is_currency_amount": true,
   "processed_at": "2023-08-16T11:12:39.206570+00:00",
   "requisites": "test v2 requisite",
   "sent_crypto": 21.00665569,
