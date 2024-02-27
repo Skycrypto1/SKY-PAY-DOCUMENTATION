@@ -200,7 +200,7 @@
 | `amount` | `number` | **Required**. Сумма продажи RUB.
 | `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md)
 | `requisites` | `string` | **Required**.
-| `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true, для суммы в крипте – false 
+| `is_currency_amount` | `boolean` | **Required**. для суммы в фиате – true, для суммы в крипте – false 
 | `lang` | `string` | Используется для установки языка интерфейса FlashSale. По дефолту - 'ru'. [Список языков FlashSale](SKYPAYLANGUAGES.md)
  | `currency` | `string` | По дефолту - 'rub'. [Список валют](CURRENCIES_SALES.md)
 | `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.

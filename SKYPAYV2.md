@@ -22,7 +22,7 @@
 | `label` | `string` | **Required**. Hash который заедается мерчантом
 | `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [Список валют](CURRENCIES.md)
-| `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true, для суммы в крипте – false |
+| `is_currency_amount` | `boolean` | **Required**. для суммы в фиате – true, для суммы в крипте – false |
 | `broker_id` | `string` |  **Required**. Используется для создания платежа на определенный банк
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
 | `client_name` | `string` | ФИО клиента.

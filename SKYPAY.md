@@ -20,7 +20,7 @@
 | `label` | `string` | **Required**. Hash который заедается мерчантом
 | `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [Список валют](CURRENCIES.md)
-| `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true, для суммы в крипте – false |
+| `is_currency_amount` | `boolean` | **Required**. для суммы в фиате – true, для суммы в крипте – false |
 | `back_url` | `string` | Cсылка на страницу, куда будет перенаправлен пользователь после успешного платежа
 | `email` | `string` | Email пользователя, который будет проводить оплату в SkyPay
 | `broker_id` | `string` | Используется для создания платежа на определенный банк
