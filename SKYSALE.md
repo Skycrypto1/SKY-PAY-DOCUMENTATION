@@ -21,6 +21,7 @@
 | `label` | `string` | **Required**. Hash который заедается мерчантом
 | `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [Список валют](CURRENCIES_SALES.md)
+| `is_currency_amount` | `boolean` | **Required**. для суммы в рублях – true, для суммы в крипте – false
 | `back_url` | `string` | Cсылка на страницу, куда будет перенаправлен пользователь после успешной оплаты
 | `lang` | `string` | Используется для установки языка интерфейса SKY PAY. По дефолту - 'ru'. [Список языков SKY PAY](SKYPAYLANGUAGES.md)
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
@@ -40,6 +41,7 @@
   "amount": 10000,
   "label": "100311",
   "symbol": "btc",
+  "is_currency_amount": true,
   "currency": "rub",
   "back_url": "https://myservice.com/payment/100311"
 }
@@ -53,6 +55,7 @@
   "created_at": "2023-02-23T13:39:02.144538+00:00",
   "currency": "rub",
   "email": null,
+  "is_currency_amount": true,
   "id": "8392d915-668b-4ff3-9b02-45ead91c4d43",
   "is_approved": false,
   "label": "100311",
@@ -90,6 +93,7 @@
   "currency": "rub",
   "email": "6f4c708755c445b@noemail.fkfl",
   "id": "d9a9312e-78fc-4d99-9baf-8b6c0a7493d6",
+  "is_currency_amount": true,
   "is_approved": true,
   "label": "100311",
   "merchant_id": 186024,
