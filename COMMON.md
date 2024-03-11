@@ -9,6 +9,8 @@
 [Получение биржевого курса криптовалют относительно валют](#exchange)
 
 [Получение истории платежей](#paymentHistory)
+
+[Статистика платежей по банкам](#brokerStatistics)
  
  <a name="balance"></a>
 ## Получение актуального баланса
@@ -158,5 +160,25 @@
         "symbol": "btc"
     }
     ...
+]
+```
+
+ <a name="brokerStatistics"></a>
+## Статистика платежей по банкам
+
+```http
+  GET rest/v2/merchant-broker-statistics
+```
+
+#### Response example
+
+```javascript
+[
+    {
+        "id": "ad70be25-5bb0-401f-a7a2-1f71c403cabf",
+        "is_card": true,
+        "name": "Сбербанк",
+        "payments_count": 1
+    }
 ]
 ```
