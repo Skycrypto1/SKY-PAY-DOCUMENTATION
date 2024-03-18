@@ -2,6 +2,8 @@
 
  При шифровании callback пользуемся этой библиотекой для шифрования https://pypi.org/project/requests-http-signature/.
 
+ Шифрование callback используется только для формата JSON. Формат application/x-www-form-urlencoded может приходить только незашифрованным.
+
  Пример кода на **Python**:
 
  ```python
