@@ -23,7 +23,7 @@
 | `requisites` | `string` | **Required**.
 | `is_currency_amount` | `boolean` | **Required**. для суммы в фиате – true, для суммы в крипте – false 
 | `currency` | `string` | По дефолту - 'rub'. [Список валют](CURRENCIES_SALES.md)
-| `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
+| `client_order_id` | `string` | Данное поле предназначено для реализации идемпотентности.
 | `lang` | `string` | Используется для установки языка интерфейса SKY SALE V2. По дефолту - 'ru'. [Список языков SKY SALE V2](SKYPAYLANGUAGES.md)
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
 
