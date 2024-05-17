@@ -25,8 +25,8 @@ sig_elements = {
     "@method": "POST",
     "@authority": "webhook.site",
     "@target-uri": "https://webhook.site/58e17407-e67a-4154-b669-88f1ec61f491",
-    "content-digest": "sha-256=:GUi7pi//QbqRKLSDrRl8M1WDazFIw6Lhucx+V79ZgLQ=:",
     "date": "Mon, 23 Oct 2023 17:06:14 GMT",
+    "content-digest": "sha-256=:GUi7pi//QbqRKLSDrRl8M1WDazFIw6Lhucx+V79ZgLQ=:",
     "@signature-params": '("@method" "@authority" "@target-uri" "content-digest" "date");created=1698080774;keyid="16335dd55d344700acbdd83de436e90c";alg="hmac-sha256"'
 }
 
@@ -56,8 +56,8 @@ const sigElements = {
   "@method": "POST",
   "@authority": "webhook.site",
   "@target-uri": "https://webhook.site/58e17407-e67a-4154-b669-88f1ec61f491",
-  "content-digest": "sha-256=:GUi7pi//QbqRKLSDrRl8M1WDazFIw6Lhucx+V79ZgLQ=:",
   "date": "Mon, 23 Oct 2023 17:06:14 GMT",
+  "content-digest": "sha-256=:GUi7pi//QbqRKLSDrRl8M1WDazFIw6Lhucx+V79ZgLQ=:",
   "@signature-params": '("@method" "@authority" "@target-uri" "content-digest" "date");created=1698080774;keyid="16335dd55d344700acbdd83de436e90c";alg="hmac-sha256"'
 };
 
@@ -84,8 +84,8 @@ $sigElements = [
     "@method" => "POST",
     "@authority" => "webhook.site",
     "@target-uri" => "https://webhook.site/58e17407-e67a-4154-b669-88f1ec61f491",
-    "content-digest" => "sha-256=:GUi7pi//QbqRKLSDrRl8M1WDazFIw6Lhucx+V79ZgLQ=:",
     "date" => "Mon, 23 Oct 2023 17:06:14 GMT",
+    "content-digest" => "sha-256=:GUi7pi//QbqRKLSDrRl8M1WDazFIw6Lhucx+V79ZgLQ=:",
     "@signature-params" => '("@method" "@authority" "@target-uri" "content-digest" "date");created=1698080774;keyid="16335dd55d344700acbdd83de436e90c";alg="hmac-sha256"'
 ];
  
@@ -102,8 +102,8 @@ sig_elements = {
 "@method": "POST", # Метод callback
 "@authority": "webhook.site", # Берется из header host
 "@target-uri": "https://webhook.site/58e17407-e67a-4154-b669-88f1ec61f491", # Адрес для получения callback
-"content-digest": "sha-256=:GUi7pi//QbqRKLSDrRl8M1WDazFIw6Lhucx+V79ZgLQ=:", # берется из header content-digest
 "date": "Mon, 23 Oct 2023 17:06:14 GMT", # берется из header date
+"content-digest": "sha-256=:GUi7pi//QbqRKLSDrRl8M1WDazFIw6Lhucx+V79ZgLQ=:", # берется из header content-digest
 "@signature-params": '("@method" "@authority" "@target-uri" "content-digest" "date");created=1698080774;keyid="16335dd55d344700acbdd83de436e90c";alg="hmac-sha256"' # берется из header signature-input всё после pyhms=
 ```
 
