@@ -23,7 +23,7 @@
 | `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Сумма покупки не должна быть более 6 знаков после запятой. [Лимиты по выводу криптовалют](WITHDRAWALLIMITS.md)
 | `address` | `string` | **Required**. Адрес кошелька.
-| `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
+| `client_order_id` | `string` | Данное поле предназначено для реализации идемпотентности.
 
 #### Limits
 
@@ -35,9 +35,9 @@
 
 ```javascript
 {
-  "symbol": "btc",
-  "amount": 0.03,
-  "address": "0x1579c0B749fAEa82A0A6FF54078F5749a8060a49"
+  "symbol": "usdt",
+  "amount": 15,
+  "address": "TYjXWvB2CVm6Nzmg3i8BVcxs5797o1cSm8"
 }
 ```
 
@@ -45,14 +45,16 @@
 
 ```javascript
 {
-  "address": "0x1579c0B749fAEa82A0A6FF54078F5749a8060a49",
-  "amount": 0.03,
-  "created_at": "2022-08-31T18:44:11.465405+00:00",
-  "id": "7123e6af-f01b-49bf-8d95-0ce067de37fb",
-  "merchant_id": 18078,
+  "address": "TYjXWvB2CVm6Nzmg3i8BVcxs5797o1cSm8",
+  "amount": 15.0,
+  "client_order_id": null,
+  "created_at": "2024-05-20T10:33:43.855177+00:00",
+  "id": "585d6072-d70c-45ab-8c03-13c2f047d222",
+  "merchant_id": 186714,
   "processed_at": null,
   "status": 1,
-  "symbol": "eth"
+  "symbol": "usdt",
+  "tx_hash": null
 }
 ```
  <a name="withdrawalinfo"></a>
@@ -72,14 +74,16 @@
 
 ```javascript
 {
-  "address": "0x1579c0B749fAEa82A0A6FF54078F5749a8060a49",
-  "amount": 0.03,
-  "created_at": "2022-08-31T18:44:11.465405+00:00",
-  "id": "7123e6af-f01b-49bf-8d95-0ce067de37fb",
-  "merchant_id": 18078,
+  "address": "TYjXWvB2CVm6Nzmg3i8BVcxs5797o1cSn7",
+  "amount": 15.0,
+  "client_order_id": null,
+  "created_at": "2024-05-20T10:33:43.855177+00:00",
+  "id": "585d6072-d70c-45ab-8c03-13c2f047d222",
+  "merchant_id": 186714,
   "processed_at": null,
   "status": 2,
-  "symbol": "eth"
+  "symbol": "usdt",
+  "tx_hash": null
 }
 ```
 
