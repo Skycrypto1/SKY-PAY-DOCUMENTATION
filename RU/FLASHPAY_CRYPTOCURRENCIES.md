@@ -1,0 +1,5 @@
+#### Allowed cryptocurrencies
+
+| currency|
+| :------|
+| `usdt` |

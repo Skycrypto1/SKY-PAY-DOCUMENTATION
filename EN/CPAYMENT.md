@@ -1,14 +1,14 @@
 
 <h1 align="center">CPAYMENT API</h1>
  
-[Создание CPAYMENT](#cpayment)
+[CPAYMENT creation](#cpayment)
 
-[Получение информации по CPAYMENT](#cpaymentinfo)
+[Obtaining information on CPAYMENT](#cpaymentinfo)
 
-[Комиссии](#commissions)
+[Commissions](#commissions)
 
 <a name="cpayment"></a>
-## Создание ссылки CPAYMENT
+## Creating a CPAYMENT link
 
 ```http
   POST /rest/v2/cpayments
@@ -17,10 +17,10 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `currency` | `string` | **Required**. [Список валют](CURRENCIESCPAYMENT.md)
-| `amount_currency` | `number` | **Required**. Сумма оплаты. [Посмотреть информацию по лимитам валют](CURRENCIESCPAYMENT.md)
-| `label` | `string` | Hash который заедается мерчантом
-| `lang` | `string` | Используется для установки языка интерфейса SKY PAY. По дефолту - 'ru'. [Список языков SKY PAY](SKYPAYLANGUAGES.md)
+| `currency` | `string` | **Required**. [Currencies list](CURRENCIESCPAYMENT.md)
+| `amount_currency` | `number` | **Required**. Payment amount. [View information on currency limits](CURRENCIESCPAYMENT.md)
+| `label` | `string` | Hash which is set by the merchant
+| `lang` | `string` | Used to set the SKY PAY interface language. By default - 'ru'. [List of SKY PAY languages](SKYPAYLANGUAGES.md)
 
 #### Limits
 
@@ -61,7 +61,7 @@
 }
 ```
  <a name="cpaymentinfo"></a>
-## Получение информации по CPAYMENT
+## Obtaining information on CPAYMENT
 
 ```http
   GET rest/v2/cpayments/<ID> 
@@ -99,14 +99,14 @@
 
 | Cpayment status (status) | Description                |
 | :-------- |  :------------------------- |
-| `0` | Cозданный платеж |
-| `1` | Начатый платеж |
-| `2` | Успешный платеж  |
-| `3` | Истекший (просроченный) платеж |
+| `0` | Created payment |
+| `1` | Started payment |
+| `2` | Successful payment |
+| `3` | Expired (overdue) payment |
 
 
  <a name="commissions"></a>
-## Комиссии
+## Commissions
 
 | cryptocurrency | commision                |
 | :-------- |  :------------------------- |
@@ -114,4 +114,4 @@
 | `eth` | 0.0007  |
 | `usdt` | 1 |
 
-#### Время транзакциии: 2 часа
+#### Transaction time: 2 часа

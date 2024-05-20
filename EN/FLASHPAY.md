@@ -1,22 +1,22 @@
-Для интеграции FlashPay на сайте необходимо указать ссылку на FlashPay в iframe, к примеру:
+To integrate FlashPay on the site, you must specify a link to FlashPay in the iframe, for example:
 
-**Приём**: <iframe src='https://skycrypto.shop/flashpay/payment/{id}' />
+**Reception**: <iframe src='https://skycrypto.shop/flashpay/payment/{id}' />
 
-**Выплата**: <iframe src='https://skycrypto.shop/flashpay/sale/{id}' />
+**Payout**: <iframe src='https://skycrypto.shop/flashpay/sale/{id}' />
 
 
-<h1 align="center">Приём</h1>
+<h1 align="center">Reception</h1>
  
-[Создание приёма](#flashpay)
+[Reception creating](#flashpay)
 
-[Получение информации по выполнению приёма](#flashpayinfo)
+[Obtaining information on performing a reception](#flashpayinfo)
 
-[Подтверждение отправки фиата](#confirmation)
+[Confirmation of sending fiat](#confirmation)
 
-[Статусы платежей приёма](#paymentStatuses)
+[Acceptance payment statuses](#paymentStatuses)
 
 <a name="flashpay"></a>
-## Создание приёма
+## Reception creating
 
 ```http
   POST /rest/v2/payments_v2 
@@ -25,17 +25,17 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `is_flash` | `number` | **Required**. Для создания приёма данное поле должно быть со значением **true**.
-| `amount` | `number` | **Required**. Сумма покупки. [Посмотреть информацию по лимитам валют](CURRENCIES.md)
-| `label` | `string` | **Required**. Hash который заедается мерчантом
-| `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
-| `currency` | `string` | **Required**. [Список валют](CURRENCIES.md)
-| `is_currency_amount` | `boolean` | **Required**. Для Flash Pay значение должно быть true
-| `lang` | `string` | Используется для установки языка интерфейса FlashPay. По дефолту - 'ru'. [Список языков FlashPay](SKYPAYLANGUAGES.md)
-| `broker_id` | `string` | Используется для создания платежа на определенный банк. [Список банков](FLASHPAY_BROKERS.md)
-| `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
-| `client_name` | `string` | ФИО клиента.
-| `client_email` | `string` | E-mail клиента.
+| `is_flash` | `number` | **Required**. To create a reception, this field must have the value **true**.
+| `amount` | `number` | **Required**. Purchase amount. [View information on currency limits](CURRENCIES.md)
+| `label` | `string` | **Required**. Hash which is set by the merchant
+| `symbol` | `string` | **Required**. [Cryptocurrencies list](FLASHPAY_CRYPTOCURRENCIES.md)
+| `currency` | `string` | **Required**. [Currencies list](CURRENCIES.md)
+| `is_currency_amount` | `boolean` | **Required**. For Flash Pay the value must be true
+| `lang` | `string` | Used to set the FlashPay interface language. By default - 'ru'. [List of FlashPay languages](SKYPAYLANGUAGES.md)
+| `broker_id` | `string` | Used to create a payment to a specific bank. [List of banks](FLASHPAY_BROKERS.md)
+| `valid_minutes` | `number` | Time in minutes after which the payment will have status 3. By default - 360. [Payment Statuses](#paymentStatuses)
+| `client_name` | `string` | Client's full name.
+| `client_email` | `string` | Client's email.
 
 #### Limits
 
@@ -91,7 +91,7 @@
 }
 ```
  <a name="flashpayinfo"></a>
-## Получение информации по выполнению приёма
+## Obtaining information on performing a reception
 
 ```http
   GET rest/v2/payments_v2/<ID> 
@@ -133,16 +133,16 @@
 ```
 
  <a name="paymentStatuses"></a>
-## Статусы платежей приёма
+## Acceptance payment statuses
 | Payment status (status) | Description                |
 | :-------- |  :------------------------- |
-| `0` | Cозданный платеж |
-| `1` | Платеж в статусе оплаты |
-| `2` | Успешный платеж |
-| `3` | Не успешный платеж |
+| `0` | Created payment |
+| `1` | Payment in payment status |
+| `2` | Successful payment |
+| `3` | Failed payment |
 
  <a name="confirmation"></a>
-## Подтверждение отправки фиата
+## Confirmation of sending fiat
 
 ```http
   PATCH /rest/v2/payments_v2/<ID>/update
@@ -176,17 +176,17 @@
 }
 ```
 
-<h1 align="center">Выплата</h1>
+<h1 align="center">Payout</h1>
  
 
-[Создание выплаты](#flashsale)
+[Payout creating](#flashsale)
 
-[Получение информации по выполнению выплаты](#flashsaleinfo)
+[Receiving information on making a payment](#flashsaleinfo)
 
-[Статусы платежей выплат](#paymentStatuses)
+[Payment statuses](#paymentStatuses)
 
  <a name="flashsale"></a>
-## Создание выплаты
+## Payout creating
 
 ```http
   POST /rest/v2/sale_v2 
@@ -195,16 +195,16 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `is_flash` | `boolean` | **Required**. Для создания выплаты данное поле должно быть со значением **true**.
- `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
-| `amount` | `number` | **Required**. Сумма продажи RUB.
-| `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md)
+| `is_flash` | `boolean` | **Required**. To create a payout, this field must have the value **true**.
+ `symbol` | `string` | **Required**. [List of cryptocurrencies](FLASHPAY_CRYPTOCURRENCIES.md)
+| `amount` | `number` | **Required**. Sale amount RUB.
+| `broker_id` | `string` | **Required**. [List of banks](FLASHPAY_BROKERS.md)
 | `requisites` | `string` | **Required**.
-| `is_currency_amount` | `boolean` | **Required**. для суммы в фиате – true, для суммы в крипте – false 
-| `lang` | `string` | Используется для установки языка интерфейса FlashSale. По дефолту - 'ru'. [Список языков FlashSale](SKYPAYLANGUAGES.md)
- | `currency` | `string` | По дефолту - 'rub'. [Список валют](CURRENCIES_SALES.md)
-| `client_order_id` | `number` | Данное поле предназначено для реализации идемпотентности.
-| `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. По дефолту - 360. [Статусы платежей](#paymentStatuses)
+| `is_currency_amount` | `boolean` | **Required**. for the amount in fiat – true, for the amount in crypto – false
+| `lang` | `string` | Used to set the FlashSale interface language. By default - 'ru'. [List of FlashSale languages](SKYPAYLANGUAGES.md)
+ | `currency` | `string` | By default - 'rub'. [List of currencies](CURRENCIES_SALES.md)
+| `client_order_id` | `number` | This field is intended to implement idempotency.
+| `valid_minutes` | `number` | Time in minutes after which the payment will have status 3. By default - 360. [Payment Statuses](#paymentStatuses)
 
 #### Limits
 
@@ -251,7 +251,7 @@
 }
 ```
  <a name="flashsaleinfo"></a>
-## Получение информации по выполнению выплаты
+## Receiving information on making a payment
 
 ```http
   GET rest/v2/sale_v2/<ID> 
@@ -288,13 +288,13 @@
 }
 ```
 
-## Статусы платежей выплаты
+## Payment statuses
  <a name="paymentStatuses"></a>
 | Sale status (status) | Description                |
 | :-------- |  :------------------------- |
-| `0` | Cозданная продажа |
-| `1` | Продажа в статусе оплаты |
-| `2` | Успешная продажа |
-| `3` | Не успешная продажа |
+| `0` | Created sale |
+| `1` | Sale in payment status |
+| `2` | Successful sale |
+| `3` | Not a successful sale |
 
 
