@@ -8,6 +8,8 @@
 
 [Статусы платежей SKY PAY V2](#paymentStatuses)
 
+[Отмена платежа SKY PAY V2](#paymentCancel)
+
 <a name="skypay"></a>
 ## Создание SKY PAY V2
 
@@ -162,5 +164,26 @@
 ```javascript
 {
   "success": "\"fiat_sent\" updated"
+}
+```
+
+ <a name="paymentCancel"></a>
+## Отмена платежа SKY PAY v2
+
+```http
+  PATCH /rest/v2/payments_v2/<ID>/cancel
+```
+
+#### Query parameters
+
+| Parameter | Description                |
+| :-------- | :------------------------- |
+| `ID` | **Required**.
+
+#### Response example
+
+```javascript
+{
+  "success": true
 }
 ```
