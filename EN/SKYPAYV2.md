@@ -168,7 +168,7 @@
 ```
 
  <a name="paymentCancel"></a>
-## Payment Cancel SKY PAY v2
+## Payment Cancel SKY PAY V2
 
 ```http
   PATCH /rest/v2/payments_v2/<ID>/cancel
