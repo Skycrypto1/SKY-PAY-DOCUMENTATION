@@ -103,6 +103,7 @@
   "processed_at": "2023-08-16T11:12:39.206570+00:00",
   "requisites": "test v2 requisite",
   "sent_crypto": 21.00665569,
+  "label": null,
   "status": 2,
   "symbol": "usdt",
   "valid_minutes": 360
