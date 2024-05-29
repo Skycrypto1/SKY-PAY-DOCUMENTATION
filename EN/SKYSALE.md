@@ -18,7 +18,7 @@
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `amount` | `number` | **Required**. Purchase amount. [View information on currency limits](CURRENCIES_SALES.md)
-| `label` | `string` | **Required**. Hash which is set by the merchant
+| `label` | `string` | Hash which is set by the merchant
 | `symbol` | `string` | **Required**. [List of cryptocurrencies](CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [List of currencies](CURRENCIES_SALES.md)
 | `is_currency_amount` | `boolean` | **Required**. for the amount in fiat – true, for the amount in crypto – false

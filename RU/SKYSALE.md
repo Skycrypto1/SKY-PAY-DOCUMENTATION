@@ -18,7 +18,7 @@
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `amount` | `number` | **Required**. Сумма покупки. [Посмотреть информацию по лимитам валют](CURRENCIES_SALES.md)
-| `label` | `string` | **Required**. Hash который задается мерчантом
+| `label` | `string` | Hash который задается мерчантом
 | `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [Список валют](CURRENCIES_SALES.md)
 | `is_currency_amount` | `boolean` | **Required**. для суммы в фиате – true, для суммы в крипте – false

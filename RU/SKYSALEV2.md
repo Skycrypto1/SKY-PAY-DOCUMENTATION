@@ -19,6 +19,7 @@
 | :-------- | :------- | :------------------------- |
  `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Сумма продажи RUB.
+| `label` | `string` | Hash который задаётся мерчантом
 | `broker_id` | `string` | **Required**.
 | `requisites` | `string` | **Required**.
 | `is_currency_amount` | `boolean` | **Required**. для суммы в фиате – true, для суммы в крипте – false 
@@ -32,6 +33,7 @@
 | Parameter | Rules     |
 | :-------- | :-------  |
 | `amount` | minimum: **2000**; maximum: **50000**
+| `label` | maxLength: **256**
 
 #### Body example
 

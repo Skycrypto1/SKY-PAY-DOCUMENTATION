@@ -19,6 +19,7 @@
 | :-------- | :------- | :------------------------- |
 `symbol` | `string` | **Required**. [List of cryptocurrencies](CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Sale amount RUB.
+| `label` | `string` | Hash which is set by the merchant
 | `broker_id` | `string` | **Required**.
 | `requisites` | `string` | **Required**.
 | `is_currency_amount` | `boolean` | **Required**. for the amount in fiat – true, for the amount in crypto – false
@@ -32,6 +33,7 @@
 | Parameter | Rules     |
 | :-------- | :-------  |
 | `amount` | minimum: **2000**; maximum: **50000**
+| `label` | maxLength: **256**
 
 #### Body example
 
