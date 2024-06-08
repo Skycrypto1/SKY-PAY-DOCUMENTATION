@@ -155,7 +155,7 @@
 
 ```javascript
 {
-  "fiat_sent": true,
+  "fiat_sent": true
 }
 ```
 
