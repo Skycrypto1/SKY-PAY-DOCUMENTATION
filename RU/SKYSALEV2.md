@@ -43,7 +43,7 @@
   "amount": 10000,
   "is_currency_amount": true,
   "broker_id": "f79a6e4d-0f87-45d6-bbf8-5ee3d95cc3af",
-  "requisites": "test v2 requisite”,
+  "requisites": "test v2 requisite",
   "currency": "rub"
 }
 ```
