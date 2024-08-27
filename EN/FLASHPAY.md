@@ -25,7 +25,7 @@ To integrate FlashPay on the site, you must specify a link to FlashPay in the if
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `is_flash` | `number` | **Required**. To create a reception, this field must have the value **true**.
+| `is_flash` | `boolean` | **Required**. To create a reception, this field must have the value **true**.
 | `amount` | `number` | **Required**. Purchase amount. [View information on currency limits](CURRENCIES.md)
 | `label` | `string` | Hash which is set by the merchant
 | `symbol` | `string` | **Required**. [Cryptocurrencies list](FLASHPAY_CRYPTOCURRENCIES.md)
