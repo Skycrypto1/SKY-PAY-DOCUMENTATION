@@ -80,7 +80,7 @@
   "token": null,
   "tx_hash": null,
   "valid_minutes": 360,
-  "web_link": "http://qpay.sky-crypto.com/payment/52d27f05-0a62-40c0-8ecc-d28c9fdbb829?ca=1500.0&s=btc&m=186024&l=100311",
+  "web_link": "https://skypay365.pro/payment/52d27f05-0a62-40c0-8ecc-d28c9fdbb829?ca=1500.0&s=btc&m=186024&l=100311",
   "lang": "ru"
 }
 ```
@@ -125,7 +125,7 @@
     "token": null,
     "tx_hash": null,
     "valid_minutes": 360,
-    "web_link": "http://qpay.sky-crypto.com/payment/0fab873b-c035-4910-ad58-2adc80515945?ca=1000.0&s=btc&m=186715&l="
+    "web_link": "https://skypay365.pro/payment/0fab873b-c035-4910-ad58-2adc80515945?ca=1000.0&s=btc&m=186715&l="
 }
 ```
 
