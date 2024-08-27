@@ -57,7 +57,7 @@
   "received_crypto": 0.0,
   "status": 0,
   "symbol": null,
-  "web_link": "http://qpay.sky-crypto.com/cpayment/0f28aad2-94b2-4911-8a2b-eccdb797ffa3"
+  "web_link": "https://skypay365.pro/cpayment/0f28aad2-94b2-4911-8a2b-eccdb797ffa3"
 }
 ```
  <a name="cpaymentinfo"></a>
@@ -93,7 +93,7 @@
   "received_crypto": 0.0,
   "status": 0,
   "symbol": null,
-  "web_link": "http://qpay.sky-crypto.com/cpayment/2a5cba7d-daav-4563-aac4-f0d967bd6856",
+  "web_link": "https://skypay365.pro/cpayment/2a5cba7d-daav-4563-aac4-f0d967bd6856",
 }
 ```
 
