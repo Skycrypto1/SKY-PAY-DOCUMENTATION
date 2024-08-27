@@ -25,7 +25,7 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `is_flash` | `number` | **Required**. Для создания приёма данное поле должно быть со значением **true**.
+| `is_flash` | `boolean` | **Required**. Для создания приёма данное поле должно быть со значением **true**.
 | `amount` | `number` | **Required**. Сумма покупки. [Посмотреть информацию по лимитам валют](CURRENCIES.md)
 | `label` | `string` | Hash который задается мерчантом
 | `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
