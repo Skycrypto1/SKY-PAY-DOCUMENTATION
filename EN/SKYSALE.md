@@ -63,7 +63,7 @@
   "processed_at": null,
   "status": 0,
   "symbol": "btc",
-  "web_link": "http://qpay.sky-crypto.com/sale/8392d915-668b-4ff3-9b02-45ead91c4d43?ca=10000&s=btc&m=186024&l=100311",
+  "web_link": "https://skypay365.pro/sale/8392d915-668b-4ff3-9b02-45ead91c4d43?ca=10000&s=btc&m=186024&l=100311",
   "back_url": "https://myservice.com/payment/100311",
   "lang": "ru",
   "valid_minutes": 360,
@@ -101,7 +101,7 @@ Confirmation of withdrawal of funds is an operation on the internal SKY API. If 
   "processed_at": null,
   "status": 0,
   "symbol": "btc",
-  "web_link": "http://qpay.sky-crypto.com/sale/d9a9312e-78fc-4d99-9baf-8b6c0a7493d6?ca=10000&s=btc&m=186024&l=100311",
+  "web_link": "https://skypay365.pro/sale/d9a9312e-78fc-4d99-9baf-8b6c0a7493d6?ca=10000&s=btc&m=186024&l=100311",
   "lang": "ru",
   "valid_minutes": 360,
   "requisite": "4382 6357 6372 8212"
