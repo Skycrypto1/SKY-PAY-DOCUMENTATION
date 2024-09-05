@@ -109,3 +109,5 @@ sig_elements = {
 
 Далее resultSignature необходимо сравнить с signature, которая приходит в header signature. Если имеется совпадение, то значит, что информация в callback изменена не была.
 
+<b>Примечание: method, authority, target-uri, content-digest, date должны идти в таком же порядке, в каком они указаны в signature params.</b>
+
