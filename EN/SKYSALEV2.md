@@ -20,7 +20,7 @@
 `symbol` | `string` | **Required**. [List of cryptocurrencies](CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Sale amount RUB.
 | `label` | `string` | Hash which is set by the merchant
-| `broker_id` | `string` | **Required**.
+| `broker_id` | `string` | **Required**. You can obtain it upon request at [endpoint of the list of banks](COMMON.md#brokers)
 | `requisites` | `string` | **Required**.
 | `is_currency_amount` | `boolean` | **Required**. for the amount in fiat – true, for the amount in crypto – false
 | `currency` | `string` | By default - 'rub'. [List of currencies](CURRENCIES_SALES.md)
