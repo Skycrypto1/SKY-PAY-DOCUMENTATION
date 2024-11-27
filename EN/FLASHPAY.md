@@ -32,7 +32,7 @@ To integrate FlashPay on the site, you must specify a link to FlashPay in the if
 | `currency` | `string` | **Required**. [Currencies list](CURRENCIES.md)
 | `is_currency_amount` | `boolean` | **Required**. For Flash Pay the value must be true
 | `lang` | `string` | Used to set the FlashPay interface language. By default - 'ru'. [List of FlashPay languages](SKYPAYLANGUAGES.md)
-| `broker_id` | `string` | Used to create a payment to a specific bank. [List of banks](FLASHPAY_BROKERS.md). You can obtain it upon request at [endpoint of the list of banks](COMMON.md#brokers)
+| `broker_id` | `string` | Used to create a payment to a specific bank. [List of banks](FLASHPAY_BROKERS.md). You can obtain id upon request at [endpoint of the list of banks](COMMON.md#brokers)
 | `valid_minutes` | `number` | Time in minutes after which the payment will have status 3. Max value - 120. By default - 120. [Payment Statuses](#paymentStatuses)
 | `client_name` | `string` | Client's full name.
 | `client_email` | `string` | Client's email.
@@ -198,7 +198,7 @@ To integrate FlashPay on the site, you must specify a link to FlashPay in the if
 | `is_flash` | `boolean` | **Required**. To create a payout, this field must have the value **true**.
  `symbol` | `string` | **Required**. [List of cryptocurrencies](FLASHPAY_CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Sale amount RUB.
-| `broker_id` | `string` | **Required**. [List of banks](FLASHPAY_BROKERS.md)
+| `broker_id` | `string` | **Required**. [List of banks](FLASHPAY_BROKERS.md). You can obtain id upon request at [endpoint of the list of banks](COMMON.md#brokers).
 | `requisites` | `string` | **Required**.
 | `is_currency_amount` | `boolean` | **Required**. for the amount in fiat – true, for the amount in crypto – false
 | `lang` | `string` | Used to set the FlashSale interface language. By default - 'ru'. [List of FlashSale languages](SKYPAYLANGUAGES.md)
