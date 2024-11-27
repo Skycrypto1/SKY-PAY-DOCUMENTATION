@@ -20,7 +20,7 @@
  `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Сумма продажи RUB.
 | `label` | `string` | Hash который задаётся мерчантом
-| `broker_id` | `string` | **Required**.
+| `broker_id` | `string` | **Required**. Получить можно по запросу на [эндпоинт списка банков](COMMON.md#brokers)
 | `requisites` | `string` | **Required**.
 | `is_currency_amount` | `boolean` | **Required**. для суммы в фиате – true, для суммы в крипте – false 
 | `currency` | `string` | По дефолту - 'rub'. [Список валют](CURRENCIES_SALES.md)
