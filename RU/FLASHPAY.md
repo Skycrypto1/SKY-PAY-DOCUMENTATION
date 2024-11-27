@@ -31,7 +31,7 @@
 | `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [Список валют](CURRENCIES.md)
 | `is_currency_amount` | `boolean` | **Required**. Для Flash Pay значение должно быть true
-| `lang` | `string` | Используется для установки языка интерфейса FlashPay. По дефолту - 'ru'. [Список языков FlashPay](SKYPAYLANGUAGES.md)
+| `lang` | `string` | Используется для установки языка интерфейса FlashPay. По дефолту - 'ru'. [Список языков FlashPay](SKYPAYLANGUAGES.md). Получить id можно по запросу на [эндпоинт списка банков](COMMON.md#brokers)
 | `broker_id` | `string` | Используется для создания платежа на определенный банк. [Список банков](FLASHPAY_BROKERS.md)
 | `valid_minutes` | `number` | Время в минутах, через которое у платежа будет 3 статус. Максимальное значение - 120. По дефолту - 120. [Статусы платежей](#paymentStatuses)
 | `client_name` | `string` | ФИО клиента.
@@ -198,7 +198,7 @@
 | `is_flash` | `boolean` | **Required**. Для создания выплаты данное поле должно быть со значением **true**.
  `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Сумма продажи RUB.
-| `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md)
+| `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md). Получить id можно по запросу на [эндпоинт списка банков](COMMON.md#brokers)
 | `requisites` | `string` | **Required**.
 | `is_currency_amount` | `boolean` | **Required**. для суммы в фиате – true, для суммы в крипте – false 
 | `lang` | `string` | Используется для установки языка интерфейса FlashSale. По дефолту - 'ru'. [Список языков FlashSale](SKYPAYLANGUAGES.md)
