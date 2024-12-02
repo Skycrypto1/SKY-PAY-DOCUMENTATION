@@ -199,6 +199,7 @@ To integrate FlashPay on the site, you must specify a link to FlashPay in the if
  `symbol` | `string` | **Required**. [List of cryptocurrencies](FLASHPAY_CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Sale amount RUB.
 | `broker_id` | `string` | **Required**. [List of banks](FLASHPAY_BROKERS.md). You can obtain id upon request at [endpoint of the list of banks](COMMON.md#brokers).
+| `label` | `string` | Hash which is set by the merchant
 | `requisites` | `string` | **Required**.
 | `is_currency_amount` | `boolean` | **Required**. for the amount in fiat – true, for the amount in crypto – false
 | `lang` | `string` | Used to set the FlashSale interface language. By default - 'ru'. [List of FlashSale languages](SKYPAYLANGUAGES.md)
