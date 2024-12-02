@@ -199,6 +199,7 @@
  `symbol` | `string` | **Required**. [Список криптовалют](FLASHPAY_CRYPTOCURRENCIES.md)
 | `amount` | `number` | **Required**. Сумма продажи RUB.
 | `broker_id` | `string` | **Required**. [Список банков](FLASHPAY_BROKERS.md). Получить id можно по запросу на [эндпоинт списка банков](COMMON.md#brokers)
+| `label` | `string` | Hash который задается мерчантом
 | `requisites` | `string` | **Required**.
 | `is_currency_amount` | `boolean` | **Required**. для суммы в фиате – true, для суммы в крипте – false 
 | `lang` | `string` | Используется для установки языка интерфейса FlashSale. По дефолту - 'ru'. [Список языков FlashSale](SKYPAYLANGUAGES.md)
