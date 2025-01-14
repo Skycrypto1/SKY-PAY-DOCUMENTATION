@@ -11,6 +11,8 @@
 [Получение истории платежей](#paymentHistory)
 
 [Статистика платежей по банкам](#brokerStatistics)
+
+[Поиск платежей по label](#searchByLabel)
  
  <a name="balance"></a>
 ## Получение актуального баланса
@@ -182,3 +184,19 @@
     }
 ]
 ```
+
+ <a name="searchByLabel"></a>
+## Поиск платежей по label
+
+```http
+  GET rest/v2/label-search/<instance>/<label>
+```
+
+<b>Примечание: максимально возможное количество полученных записей с одинаковым label - 100.</b>
+
+#### Parameters
+
+| Parameter | Description                |
+| :-------- | :------------------------- |
+| `instance` | **Required**. Варианты: ["pay_v2", "sale_v2", "sale", "pay"].
+| `label` | **Required**. Label для поиска.
