@@ -11,6 +11,8 @@
 [Getting payment history](#paymentHistory)
 
 [Payment statistics by brokers](#brokerStatistics)
+
+[Search by label](#searchByLabel)
  
  <a name="balance"></a>
 ## Getting the current balance
@@ -182,3 +184,19 @@
     }
 ]
 ```
+
+ <a name="searchByLabel"></a>
+## Search by label
+
+```http
+  GET rest/v2/label-search/<instance>/<label>
+```
+
+<b>Note: the maximum possible number of received records with the same label is 100.</b>
+
+#### Parameters
+
+| Parameter | Description                |
+| :-------- | :------------------------- |
+| `instance` | **Required**. Veriants: ["pay_v2", "sale_v2", "sale", "pay"].
+| `label` | **Required**. Label for search.
