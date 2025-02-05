@@ -21,7 +21,7 @@
 | `symbol` | `string` | **Required**. [List of cryptocurrencies](CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [List of currencies](CURRENCIES.md)
 | `is_currency_amount` | `boolean` | **Required**. for the amount in fiat – true, for the amount in crypto – false |
-| `back_url` | `string` | Link to the page where the user will be redirected after a successful payment
+| `back_url` | `string` | Link to the page where the user will be redirected after a payment
 | `email` | `string` | Email of the user who will make payments in SkyPay
 | `broker_id` | `string` | Used to create a payment to a specific bank
 | `mask` | `string` | Used to transmit the sender's card details
