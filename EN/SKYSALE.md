@@ -22,7 +22,7 @@
 | `symbol` | `string` | **Required**. [List of cryptocurrencies](CRYPTOCURRENCIES.md)
 | `currency` | `string` | **Required**. [List of currencies](CURRENCIES_SALES.md)
 | `is_currency_amount` | `boolean` | **Required**. for the amount in fiat – true, for the amount in crypto – false
-| `back_url` | `string` | Link to the page where the user will be redirected after successful payment
+| `back_url` | `string` | Link to the page where the user will be redirected after payment
 | `lang` | `string` | Used to set the SKY PAY interface language. By default - 'ru'. [List of SKY PAY languages](SKYPAYLANGUAGES.md)
 | `valid_minutes` | `number` | Time in minutes after which the payment will have status 3. Max value - 120. By default - 120. [Payment Statuses](#paymentStatuses)
 
