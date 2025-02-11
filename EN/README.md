@@ -17,7 +17,16 @@ fill in the parameters of the online platform in the SKY API: Name, Website, Log
   - Cpayment callback URL - [Information from response Cpayment](CPAYMENT.md#Receiving-information-on-CPAYMENT)
 
 On the page https://skycrypto.me/merchant **(test environment - https://trcrfortest.co/merchant)** It is possible to encrypt callback by activating the corresponding switch and clicking on the "Regenerate encryption keys" button. You can read more about callback encryption on the page [Callback Encryption](CALLBACK_ENCRYPTION.md)
-- Contact the SKY PAY administrator so that he can activate the necessary functionality for the online platform by providing him with a Name.
+- Contact SKY PAY support in Telegram to activate the merchant, indicating a nickname, that is, your personal account number (can be seen in the site header after authorization). Without activation by merchant support, all requests will receive a response:
+
+```javascript
+{
+   "type": "about:blank",
+   "title": "Bad Request",
+   "detail": "merchant not active",
+   "status": 400
+}
+```
   
 **API PROD** - https://papi.skycrypto.net or https://papi.skycrypto.me
  **API TEST** - https://papi.trcrfortest.co
