@@ -18,12 +18,14 @@
     На странице https://skycrypto.me/merchant **(тестовое окружение - https://trcrfortest.co/merchant)** существует возможность шифровать callback, активировав соответствующий переключатель и нажав на кнопку "Перегенерировать ключи шифрования". Подробнее о шифровании callback Вы можете прочитать на странице [Шифрование Callback](CALLBACK_ENCRYPTION.md)
 - Связаться с поддержкой SKY PAY в Telegram для активации мерчанта, указав никнейм, то есть номер личного кабинета (можно увидеть в хедере сайта после авторизации). Без активации поддержкой мерчанта на все запросы будет получен ответ:
 
+```javascript
 {
    "type": "about:blank",
    "title": "Bad Request",
    "detail": "merchant not active",
    "status": 400
 }
+```
   
 **API PROD** - https://papi.skycrypto.net или https://papi.skycrypto.me
  **API TEST** - https://papi.trcrfortest.co
