@@ -34,6 +34,7 @@
 | :-------- | :-------  |
 | `amount` | minimum: **2000**; maximum: **50000**
 | `label` | maxLength: **256**
+| `client_order_id` | maxLength: **16**
 
 #### Body example
 
