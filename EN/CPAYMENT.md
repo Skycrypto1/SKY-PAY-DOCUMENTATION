@@ -110,8 +110,8 @@
 
 | cryptocurrency | commision                |
 | :-------- |  :------------------------- |
-| `btc` | 0.000004 |
-| `eth` | 0.0007  |
-| `usdt` | 1 |
+| `btc` | 0.000004 + 0.5% of payment sum |
+| `eth` | 0.0007 + 0.5% of payment sum  |
+| `usdt` | 1 + 0.5% of payment sum |
 
 #### Transaction time: 2 часа
