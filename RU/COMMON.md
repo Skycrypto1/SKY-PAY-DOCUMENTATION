@@ -13,6 +13,8 @@
 [Статистика платежей по банкам](#brokerStatistics)
 
 [Поиск платежей по label](#searchByLabel)
+
+[Поиск платежей за период](#searchByPeriod)
  
  <a name="balance"></a>
 ## Получение актуального баланса
@@ -200,3 +202,38 @@
 | :-------- | :------------------------- |
 | `instance` | **Required**. Варианты: ["pay_v2", "sale_v2", "sale", "pay"].
 | `label` | **Required**. Label для поиска.
+
+ <a name="searchByPeriod"></a>
+## Поиск платежей за период
+
+```http
+  GET rest/v2/merchant-report?operation_type=<op_type>&date_from=<date_from>&date_to=<date_to>
+```
+
+<b>Примечание:</b>
+<b>Максимальный период - 2 месяца.</b>
+<b>Формат даты - YYYY-MM-DD</b>
+
+#### Parameters
+
+| Parameter | Description                |
+| :-------- | :------------------------- |
+| `op_type` | **Required**. Варианты: [ "pay", "sale", "sale_v2", "pay_v2" ].
+| `date_from` | **Required**. Дата "от" в формате YYYY-MM-DD.
+| `date_to` | **Required**. Дата "до" в формате YYYY-MM-DD.
+
+#### Response example
+
+```javascript
+[
+    {
+        "amount": 5000.0,
+        "created_at": "2025-03-06T08:58:57.306707+00:00",
+        "currency": "rub",
+        "id": "ea613ef3-841e-40ab-8c4e-d73bb0c8614f",
+        "processed_at": "2025-03-06T09:00:20.870920+00:00",
+        "status": 2,
+        "symbol": "btc"
+    }
+]
+```
