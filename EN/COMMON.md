@@ -13,6 +13,8 @@
 [Payment statistics by brokers](#brokerStatistics)
 
 [Search by label](#searchByLabel)
+
+[Search payments by period](#searchByPeriod)
  
  <a name="balance"></a>
 ## Getting the current balance
@@ -200,3 +202,38 @@
 | :-------- | :------------------------- |
 | `instance` | **Required**. Veriants: ["pay_v2", "sale_v2", "sale", "pay"].
 | `label` | **Required**. Label for search.
+
+ <a name="searchByPeriod"></a>
+## Search payments by period
+
+```http
+  GET rest/v2/merchant-report?operation_type=<op_type>&date_from=<date_from>&date_to=<date_to>
+```
+
+<b>Notes:</b>
+<b>Max period - 2 months.</b>
+<b>Dates format - YYYY-MM-DD</b>
+
+#### Parameters
+
+| Parameter | Description                |
+| :-------- | :------------------------- |
+| `op_type` | **Required**. Variants: [ "pay", "sale", "sale_v2", "pay_v2" ].
+| `date_from` | **Required**. Date "from" formatted as YYYY-MM-DD.
+| `date_to` | **Required**. Date "to" formatted as YYYY-MM-DD.
+
+#### Response example
+
+```javascript
+[
+    {
+        "amount": 5000.0,
+        "created_at": "2025-03-06T08:58:57.306707+00:00",
+        "currency": "rub",
+        "id": "ea613ef3-841e-40ab-8c4e-d73bb0c8614f",
+        "processed_at": "2025-03-06T09:00:20.870920+00:00",
+        "status": 2,
+        "symbol": "btc"
+    }
+]
+```
