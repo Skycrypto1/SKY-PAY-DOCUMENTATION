@@ -38,6 +38,7 @@
 | `label` | maxLength: **256**
 | `back_url` | maxLength: **256**
 | `email` | maxLength: **50**
+| `address` | minLength: **32**; maxLength: **42**
 
 #### Body example
 
