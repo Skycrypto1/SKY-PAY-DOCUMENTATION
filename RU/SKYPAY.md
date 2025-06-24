@@ -16,6 +16,7 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
+| `address` | `string` | Адрес кошелька, на который необходимо вывести сумму платежа после его завершения.
 | `amount` | `number` | **Required**. Сумма покупки. [Посмотреть информацию по лимитам валют](CURRENCIES.md)
 | `label` | `string` | Hash который задается мерчантом
 | `symbol` | `string` | **Required**. [Список криптовалют](CRYPTOCURRENCIES.md)
