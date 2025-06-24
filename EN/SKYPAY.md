@@ -16,6 +16,7 @@
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
+| `address` |	`string` |	The wallet address to which the payment amount should be withdrawn after its completion.
 | `amount` | `number` | **Required**. Purchase amount. [View information on currency limits](CURRENCIES.md)
 | `label` | `string` | Hash that is set by the merchant
 | `symbol` | `string` | **Required**. [List of cryptocurrencies](CRYPTOCURRENCIES.md)
