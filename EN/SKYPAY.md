@@ -85,7 +85,8 @@
   "tx_hash": null,
   "valid_minutes": 360,
   "web_link": "https://skypay365.pro/payment/52d27f05-0a62-40c0-8ecc-d28c9fdbb829?ca=1500.0&s=btc&m=186024&l=100311",
-  "lang": "ru"
+  "lang": "ru",
+  "client_id": "aab3677bsd563n456d"
 }
 ```
  <a name="skypayinfo"></a>
@@ -117,6 +118,7 @@
     "is_currency_amount": true,
     "label": "",
     "lang": "ru",
+    "client_id": "aab3677bsd563n456d",
     "mask": "4807-0702-9739-8133",
     "merchant_id": 186715,
     "payment_id": "0fab873b-c035-4910-ad58-2adc80515945",
