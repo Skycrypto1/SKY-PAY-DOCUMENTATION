@@ -53,7 +53,8 @@
   "back_url": "https://myservice.com/payment/100311",
   "email": "testuser@mail.co",
   "broker_id": "ad70be25-5bb0-401f-a7a2-1f71c403cabf",
-  "mask": "4728367903430821"
+  "mask": "4728367903430821",
+  "client_id": "aab3677bsd563n456d"
 }
 ```
 
