@@ -28,6 +28,7 @@
 | `mask` | `string` | Used to transmit the sender's card details
 | `lang` | `string` | Used to set the SKY PAY interface language. By default - 'ru'. [List of SKY PAY languages](SKYPAYLANGUAGES.md)
 | `valid_minutes` | `number` | Time in minutes after which the payment will have status 3. Max value - 120. By default - 120. [Payment Statuses](#paymentStatuses)
+| `client_id` | `string`| Client id, unique in your system.
 
 
 #### Limits
@@ -52,7 +53,8 @@
   "back_url": "https://myservice.com/payment/100311",
   "email": "testuser@mail.co",
   "broker_id": "ad70be25-5bb0-401f-a7a2-1f71c403cabf",
-  "mask": "4728367903430821"
+  "mask": "4728367903430821",
+  "client_id": "aab3677bsd563n456d"
 }
 ```
 
